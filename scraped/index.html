@@ -1,0 +1,626 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>ThikBid</title>
+<meta name="description" content="ThikBid sends new government tenders for your area and your trade to your WhatsApp every morning. Starting in Assam.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Instrument+Serif:ital@0;1&family=Geist:wght@400..700&family=Geist+Mono:wght@400;500&family=Noto+Sans+Bengali:wght@500;600;700&family=Noto+Sans+Devanagari:wght@500;600&family=Noto+Sans+Gujarati:wght@500;600&family=Noto+Sans+Tamil:wght@500;600&display=swap">
+  <script type="module" crossorigin src="/assets/index-kwNebdeb.js"></script>
+  <link rel="modulepreload" crossorigin href="/assets/modulepreload-polyfill-B5Qt9EMX.js">
+  <link rel="modulepreload" crossorigin href="/assets/config-DAcj3xRs.js">
+  <link rel="stylesheet" crossorigin href="/assets/index-CKzG2lPy.css">
+</head>
+<body>
+<div class="cursor" aria-hidden="true"></div>
+
+<header class="nav" id="nav">
+  <div class="nav-in" id="nav-in">
+    <a class="logo" href="#top" aria-label="ThikBid home"><span class="logo-mark" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 20 20"><path d="M10 2 18 10 10 18 2 10Z" fill="#fff"/><path d="M10 6.5 13.5 10 10 13.5 6.5 10Z" fill="#B91F2B"/><path d="M10 8.8 11.2 10 10 11.2 8.8 10Z" fill="#fff"/></svg></span><span>Thik<b>Bid</b></span></a>
+    <nav class="nav-links" aria-label="Main" id="nav-links">
+      <span class="nav-ind" id="nav-ind" aria-hidden="true"></span>
+      <a href="#features" data-i18n="nav_feat">Features</a><a href="#how" data-i18n="nav_how">How it works</a><a href="#try" data-i18n="nav_try">Try it</a><a href="/tenders" data-i18n="nav_tenders">Tenders</a><a href="#price" data-i18n="nav_price">Pricing</a><a href="/firm" data-i18n="nav_firm">For firms</a>
+    </nav>
+    <div class="nav-r">
+      <button class="lang-t" id="lang-toggle" aria-pressed="false" aria-label="Switch language between English and Assamese"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></svg><span class="as">অসমীয়া</span><span class="en">English</span></button>
+      <a class="nav-login" href="/login" data-i18n="nav_login">Log in</a>
+      <a class="nav-cta" href="/start"><span data-i18n="nav_cta">Start free</span><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <button class="nav-menu" id="nav-menu" aria-label="Menu" aria-expanded="false" aria-controls="nav-sheet"><i></i><i></i></button>
+    </div>
+  </div>
+  <div class="nav-sheet" id="nav-sheet" hidden>
+    <nav aria-label="Mobile">
+      <a href="#features" data-i18n="nav_feat">Features</a>
+      <a href="#how" data-i18n="nav_how">How it works</a>
+      <a href="#try" data-i18n="nav_try">Try it</a>
+      <a href="/tenders" data-i18n="nav_tenders">Tenders</a>
+      <a href="#price" data-i18n="nav_price">Pricing</a>
+      <a href="/firm" data-i18n="nav_firm">For firms</a>
+    </nav>
+    <div class="sheet-acts">
+      <a class="sheet-start" href="/start"><span data-i18n="nav_signup">Get started</span><small data-i18n="nav_signup_s">Set up your alerts in 1 minute</small></a>
+      <a class="sheet-login" href="/login"><span data-i18n="nav_login">Log in</span><small data-i18n="nav_me_s">Log in with a link on WhatsApp</small></a>
+    </div>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO: gamusa cloth lifts away, phone rises -->
+<section class="hero" id="hero">
+  <div class="hero-sticky">
+    <div class="hero-frame" id="hero-frame">
+      <canvas id="cloth" aria-hidden="true"></canvas>
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="hero-top" id="hero-copy">
+    <h1 id="h1" aria-label="Every new tender, straight to your WhatsApp.">
+      <span class="hl clip"><span class="hi" data-i18n="h1a">Every new tender,</span></span>
+      <span class="hl clip"><span class="hi"><span class="rot" id="rot" aria-hidden="true"><span class="base">straight</span><span class="meas"></span></span> <span data-i18n="h1b">to your</span></span></span>
+      <span class="hl clip"><span class="hi"><span class="wa-u" id="wa-u"><span data-i18n="h1c">WhatsApp.</span><svg viewBox="0 0 400 24" preserveAspectRatio="none" aria-hidden="true"><path d="M4 16 C 80 4, 150 22, 220 10 S 340 6, 396 14"/></svg></span></span></span>
+    </h1>
+    <p class="lede" data-i18n="hero_lede">ThikBid checks government tender websites every day and sends you only the work that fits your area and your trade.</p>
+    <div class="hero-ctas">
+      <a class="btn red magnetic" data-wa href="https://wa.me/919387854327?text=Hi%20ThikBid%20%5Bweb%5D" target="_blank" rel="noopener"><span class="ic" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.7-5.2A8.5 8.5 0 1 1 21 12z"/></svg></span><span class="lbl"><span data-i18n="cta_hi">Say “Hi” on WhatsApp</span><span data-i18n="cta_hi2">It's free to start</span></span></a>
+      <a class="btn soft magnetic" href="#how"><span class="lbl"><span data-i18n="cta_how">See how it works</span><span data-i18n="cta_how2">3 easy steps</span></span></a>
+    </div>
+      </div>
+      <div class="hero-veil" id="hero-veil" aria-hidden="true"></div>
+      <div class="hero-stage">
+        <div class="hero-phone" id="hero-phone"><div class="lift" id="hero-lift"><div class="tilt">
+          <!-- live screen sits behind the photo; the photo has the phone's screen cut out -->
+          <div class="hs-wrap" id="hs-wrap" aria-hidden="true"><div class="hs" id="hs"></div></div>
+          <img class="hand-photo" id="hand-photo" src="/assets/hand-phone.webp" alt="" aria-hidden="true" decoding="async" fetchpriority="high" draggable="false">
+        </div></div></div>
+      </div>
+      <div class="float-chip note fc1" aria-hidden="true"><span class="note-t"><small data-i18n="fc1_s">Every day</small><span data-i18n="fc1">7:00 AM alert</span></span><svg class="note-ar" viewBox="0 0 64 34" aria-hidden="true"><path class="ln" pathLength="1" d="M3 9 C 20 3, 40 6, 58 24"/><path class="hd" pathLength="1" d="M47 23.5 L 58.5 25 L 56 13.5"/></svg></div>
+      <div class="float-chip note fc2" aria-hidden="true"><svg class="note-ar" viewBox="0 0 64 34" aria-hidden="true"><path class="ln" pathLength="1" d="M61 12 C 44 4, 22 8, 6 22"/><path class="hd" pathLength="1" d="M8 10.5 L 5.5 22.5 L 17 23.5"/></svg><span class="note-t"><small data-i18n="fc2_s">Only</small><span data-i18n="fc2">Your district</span></span></div>
+      <div class="float-chip note fc3" aria-hidden="true"><svg class="note-ar" viewBox="0 0 64 34" aria-hidden="true"><path class="ln" pathLength="1" d="M61 24 C 46 30, 22 28, 6 12"/><path class="hd" pathLength="1" d="M5 24 L 5.5 11.5 L 16.5 14"/></svg><span class="note-t"><small data-i18n="fc3_s">Before last date</small><span data-i18n="fc3">Reminder</span></span></div>
+      <div class="scroll-cue" aria-hidden="true">Scroll<i></i></div>
+    </div>
+  </div>
+</section>
+
+<!-- FRESH TENDERS -->
+<section class="fresh" id="fresh" aria-labelledby="fresh-h">
+  <div class="wrap fresh-head">
+    <h2 id="fresh-h" data-i18n="fresh_h">Fresh this week</h2>
+    <div class="fresh-ctrl">
+      <button class="arr" id="row-prev" aria-label="Previous tenders"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg></button>
+      <a class="fresh-all" href="/tenders"><span data-i18n="fresh_all">All open tenders</span><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+      <button class="arr" id="row-next" aria-label="Next tenders"><svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 18l6-6-6-6"/></svg></button>
+    </div>
+  </div>
+  <div class="row" id="row" tabindex="0" aria-label="Recent tenders, scroll sideways"></div>
+</section>
+
+<!-- WHY: six sources open like a flower and close into one message -->
+<section class="sec" id="why">
+  <div class="wrap why-grid">
+    <div class="why-copy">
+      <h2 class="wx-h" id="wx-h" data-i18n="why_h">We read the portals. <em class="s">You read <u class="wx-o">one</u> message.</em></h2>
+      <p class="wx-p" id="wx-p" data-i18n="why_p"><b class="wx-ref" data-s="0">Assam Tenders</b>, <b class="wx-ref" data-s="1">GeM</b>, <b class="wx-ref" data-s="5">CPPP</b>, <b class="wx-ref" data-s="2">IREPS</b>, the <b class="wx-ref" data-s="4">PWD notice board</b>, the <b class="wx-ref" data-s="3">morning paper</b>. Each one has its own login, its own captcha and its own 40-page PDF. We go through all of it before you wake up and send the few lines that are actually about your work.</p>
+      <ul class="wx-lines" id="wx-lines">
+        <li><span class="wx-m"><span data-i18n="why_l1">Only your district. Only your trade.</span></span></li>
+        <li><span class="wx-m"><span data-i18n="why_l2">In English or Assamese.</span></span></li>
+        <li><span class="wx-m"><span data-i18n="why_l3">On WhatsApp, 7 AM, every day.</span></span></li>
+      </ul>
+    </div>
+    <div class="wx-stage" id="wx-stage">
+      <canvas class="wx-flow" id="wx-flow" aria-hidden="true"></canvas>
+      <div class="wx-src" data-i="0" aria-hidden="true"><span class="wx-url">assamtenders.gov.in</span></div>
+      <div class="wx-src" data-i="1" aria-hidden="true"><span class="wx-url">gem.gov.in/bids</span></div>
+      <div class="wx-src" data-i="2" aria-hidden="true"><span class="wx-url">ireps.gov.in</span></div>
+      <div class="wx-src" data-i="3" aria-hidden="true"><span class="wx-url">Assamese daily, p.9</span></div>
+      <div class="wx-src" data-i="4" aria-hidden="true"><span class="wx-url">PWD notice board</span></div>
+      <div class="wx-src" data-i="5" aria-hidden="true"><span class="wx-url">eprocure.gov.in</span></div>
+      <div class="wx-heart" id="wx-heart" aria-live="polite">
+        <span class="wx-via" id="wx-via"></span>
+        <p class="wx-what" id="wx-what"></p>
+        <p class="wx-facts" id="wx-facts"></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- WHAT YOU GET: a wheel you turn. At rest the six features sit in a ring around the heading; the first scroll
+     opens the ring into a drum and every further scroll turns exactly one card to the front. -->
+<section class="wheel" id="get" aria-labelledby="get-h">
+  <div class="wh-pin">
+    <div class="wh-stage" id="wh-stage">
+      <div class="wh-ring-label" id="wh-label">
+        <span class="label" data-i18n="get_label">What you get</span>
+        <h2 id="get-h" data-i18n="get_h">Made for the person <em class="s">on site</em>, not at a desk.</h2>
+        <span class="wh-cue"><span data-i18n="wh_cue">Scroll to turn the wheel</span><i aria-hidden="true"></i></span>
+      </div>
+      <div class="wh-wheel" id="wh-wheel">
+
+        <div class="wcard" data-t="Your trade only"><article class="bc b1">
+          <div class="wc-txt">
+            <div><span class="wc-n">01</span><h3 data-i18n="b1_h">Only your kind of work</h3>
+            <p data-i18n="b1_p">Road, building, bridge, water, electrical or supply. Pick one or many. Everything else is filtered out before it reaches you.</p></div>
+            <div class="wc-tip"><span class="wc-tl" data-i18n="wt_l">On WhatsApp</span><span><code>CHANGE</code> <span data-i18n="wt1">to switch your district or trade any time.</span></span></div>
+          </div>
+          <div class="wc-viz sieve-viz">
+            <div class="trades" id="trades" role="group" aria-label="Types of work"></div>
+            <div class="feed" aria-hidden="true"><div class="feed-in" id="feed"></div></div>
+          </div>
+        </article></div>
+
+        <div class="wcard" data-t="7 AM digest"><article class="bc b2 pink">
+          <div class="wc-txt">
+            <div><span class="wc-n">02</span><h3 data-i18n="b2_h">Every morning at 7</h3>
+            <p data-i18n="b2_pl">New tenders arrive before your day starts. One short message a day, not fifty pings.</p></div>
+            <div class="wc-tip"><span class="wc-tl" data-i18n="wt_l">On WhatsApp</span><span><code>PAUSE</code> <span data-i18n="wt2">to stop alerts while you are busy on site.</span></span></div>
+          </div>
+          <div class="wc-viz"><div class="lock" id="lock" aria-hidden="true"><span class="ld" id="lock-d">Monday, 19 October</span><span class="lt" id="lock-t">6:58</span><div class="notif" id="notif"><span class="na"><svg width="16" height="16" viewBox="0 0 24 24" fill="#fff"><path d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2z"/></svg></span><span><b>ThikBid · now</b>☀️ 3 new tenders for Road work in Jorhat</span></div></div></div>
+        </article></div>
+
+        <div class="wcard" data-t="Last-date reminders"><article class="bc b3">
+          <div class="wc-txt">
+            <div><span class="wc-n">03</span><h3 data-i18n="b3_h">Never miss a last date</h3>
+            <p data-i18n="b3_pl">Tap “Remind me”. We message you 3 days and 1 day before it closes, and again if the date is changed.</p></div>
+            <div class="wc-tip"><span class="wc-tl" data-i18n="wt_l">On WhatsApp</span><span><code>Remind me</code> <span data-i18n="wt3">is a button under every tender.</span></span></div>
+          </div>
+          <div class="wc-viz"><div class="cal" id="cal" aria-label="Calendar: reminders 3 days and 1 day before the last date"></div></div>
+        </article></div>
+
+        <div class="wcard" data-t="Your language"><article class="bc b4 pink">
+          <div class="wc-txt">
+            <div><span class="wc-n">04</span><h3 data-i18n="b4_h">Speaks your language</h3>
+            <p data-i18n="b4_p">English and Assamese at launch. Hindi, Bengali and more Indian languages next.</p></div>
+            <div class="wc-tip"><span class="wc-tl" data-i18n="wt_l">On WhatsApp</span><span><code>LANGUAGE</code> <span data-i18n="wt4">to switch. The tender details stay exactly as published.</span></span></div>
+          </div>
+          <div class="wc-viz"><div class="lang-box"><div class="ltabs" id="ltabs" aria-hidden="true"></div><div class="lbub" id="lbub" aria-hidden="true"></div></div></div>
+        </article></div>
+
+        <div class="wcard" data-t="Every source"><article class="bc b5">
+          <div class="wc-txt">
+            <div><span class="wc-n">05</span><h3 data-i18n="b5_h">Every source, one place</h3>
+            <p data-i18n="b5_pl">State portal, GeM, CPPP, railways and PSUs. We read the websites so you don't have to.</p></div>
+            <div class="wc-tip"><span class="wc-tl" data-i18n="wt_l">On WhatsApp</span><span><code>Details</code> <span data-i18n="wt5">opens the original notice on the official site.</span></span></div>
+          </div>
+          <div class="wc-viz"><div><div class="radar" id="radar" aria-hidden="true"><div class="sweep"></div><div class="core"><svg width="22" height="22" viewBox="0 0 20 20"><path d="M10 2 18 10 10 18 2 10Z" fill="#fff"/><path d="M10 6.5 13.5 10 10 13.5 6.5 10Z" fill="#B91F2B"/></svg></div></div><div class="found"><b id="found">0</b> <span data-i18n="b5_f">tenders read today</span></div></div></div>
+        </article></div>
+
+        <div class="wcard" data-t="Share with your team"><article class="bc b6 dark">
+          <div class="wc-txt">
+            <div><span class="wc-n">06</span><h3 data-i18n="b6_h">Send it to your partner or munshi.</h3>
+            <p data-i18n="b6_p">Forward any tender straight from WhatsApp to the person who prepares your papers. No screenshots, no retyping.</p></div>
+            <div class="wc-tip"><span class="wc-tl" data-i18n="wt_l">On WhatsApp</span><span><code>Forward</code> <span data-i18n="wt6">like any WhatsApp message. The link to the notice goes with it.</span></span></div>
+          </div>
+          <div class="wc-viz"><div class="fwd-stage" id="fwd" aria-hidden="true">
+            <div class="fwd-msg" id="fwd-msg"><span class="fl"><svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M14 9V5l7 7-7 7v-4.1c-5 0-8.5 1.6-11 5.1 1-5 4-10 11-11z"/></svg>Forwarded</span><b>RCC culvert on village road near Kampur</b><br>📍 Nagaon · PWD Roads<br>⏳ Last date: 4 Nov</div>
+            <div class="contacts" id="contacts"></div>
+          </div></div>
+        </article></div>
+
+      </div>
+    </div>
+
+    <!-- desktop: counter on the left, index on the right. phone: one pill at the bottom -->
+    <div class="wh-side wh-l" id="wh-left" aria-hidden="true">
+      <span class="label" data-i18n="get_label">What you get</span>
+      <div class="wh-count"><b id="wh-n">01</b><span>/ 06</span></div>
+      <div class="wh-bar"><i id="wh-bar"></i></div>
+      <span class="wh-hint">Scroll for the next one</span>
+    </div>
+    <nav class="wh-side wh-r" aria-label="Features in this section">
+      <ol class="wh-index" id="wh-index"></ol>
+      <a class="wh-skip" href="#features" id="wh-skip"><span data-i18n="wh_skip">Skip ahead</span> <svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 5v14M6 13l6 6 6-6"/></svg></a>
+    </nav>
+    <div class="wh-pill" id="wh-pill" aria-hidden="true"><b id="wh-pn">01</b><span class="wh-dots" id="wh-dots"></span><span>06</span></div>
+  </div>
+</section>
+
+<!-- HOW -->
+<section class="how" id="how">
+  <div class="wrap how-grid">
+    <div>
+      <div class="how-head">
+        <span class="label" data-i18n="how_label">How it works</span>
+        <h2><span class="mask"><span class="ri" data-i18n="how_h">Three steps. <em class="s">Then just wait.</em></span></span></h2>
+        <p class="how-sub" data-i18n="how_sub">All of it happens inside WhatsApp. Set it up once in about a minute, and the right tenders come to you every day.</p>
+      </div>
+      <ol class="steps" id="steps">
+        <li class="step on" data-step="0"><span class="n">1</span><div class="step-b"><span class="step-tag"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="s1_t">10 seconds</span></span><h3 data-i18n="s1_h">Say “Hi” to ThikBid</h3><p data-i18n="s1_p">Open WhatsApp and send “Hi”. No new app, no website, no password.</p><ul class="step-pts"><li data-i18n="s1_a">Works on any phone with WhatsApp</li><li data-i18n="s1_b">English or অসমীয়া, your choice</li></ul><div class="step-chat"><div class="wch" data-mini="0"></div></div></div></li>
+        <li class="step" data-step="1"><span class="n">2</span><div class="step-b"><span class="step-tag"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg><span data-i18n="s2_t">1 minute</span></span><h3 data-i18n="s2_h">Choose your area and work</h3><p data-i18n="s2_p">Tap your district and the work you do, like road, building or supply. It takes one minute.</p><ul class="step-pts"><li data-i18n="s2_a">Just tap buttons, no typing</li><li data-i18n="s2_b">Change it any time: just send “CHANGE”</li></ul><div class="step-chat"><div class="wch" data-mini="1"></div></div></div></li>
+        <li class="step" data-step="2"><span class="n">3</span><div class="step-b"><span class="step-tag"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 3v2M5.6 5.6l1.4 1.4M3 12h2M19 12h2M17 7l1.4-1.4"/><circle cx="12" cy="13" r="4"/><path d="M4 20h16"/></svg><span data-i18n="s3_t">Every day, 7 AM</span></span><h3 data-i18n="s3_h">Get tenders every morning</h3><p data-i18n="s3_p">At 7 AM you get the new tenders that match you. Tap “Remind me” and we message you again before the last date.</p><ul class="step-pts"><li data-i18n="s3_a">Only tenders that match your work</li><li data-i18n="s3_b">A reminder before the last date</li></ul><div class="step-chat"><div class="wch" data-mini="2"></div></div></div></li>
+      </ol>
+      <div class="how-end">
+        <a class="btn red magnetic" data-wa href="https://wa.me/919387854327?text=Hi%20ThikBid%20%5Bweb%5D" target="_blank" rel="noopener"><span class="ic" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.7-5.2A8.5 8.5 0 1 1 21 12z"/></svg></span><span class="lbl"><span data-i18n="how_cta">Start step 1 now</span><span data-i18n="cta_hi2">It's free to start</span></span></a>
+        <span class="how-note" data-i18n="how_note">Free to start · No card needed</span>
+      </div>
+    </div>
+    <div class="how-right" aria-hidden="true">
+      <div class="how-sticky">
+        <span class="how-num" id="how-num">1</span>
+        <span class="how-glow"></span>
+        <div class="how-stage">
+          <div class="pw" data-phone="how"></div>
+          <div class="how-cap"><span class="how-bars"><i class="on"></i><i></i><i></i></span><span id="how-cap">Say “Hi” to ThikBid</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FEATURES: what comes inside every alert (after How it works) -->
+<section class="fx" id="features" aria-labelledby="fx-h">
+  <div class="fx-gam" aria-hidden="true"><pre id="fx-gam"></pre></div>
+  <div class="wrap">
+    <header class="fx-head">
+      <div>
+        <span class="label fx-label"><span class="fx-blk" aria-hidden="true"></span><span data-i18n="fx_label">Inside every alert</span></span>
+        <h2 id="fx-h"><span class="mask"><span class="ri" data-i18n="fx_h">Every tender, <em class="s">already read for you.</em></span></span></h2>
+      </div>
+      <div class="fx-head-r up">
+        <p class="lede" data-i18n="fx_p">Each alert carries what decides a bid: whether you qualify, what changed, and when it closes. It all works inside WhatsApp, and every tender has its own page too.</p>
+        <div class="fx-ratio" aria-hidden="true"><b>48</b><span>pages</span><i>──→</i><b>1</b><span>message</span></div>
+      </div>
+    </header>
+
+    <figure class="fx-machine up">
+      <div class="fxm-bar">
+        <span class="fxm-dots" aria-hidden="true"><i></i><i></i><i></i></span>
+        <span class="fxm-file">NIT_PWD-Roads_Nagaon_0412.pdf</span>
+        <span class="fxm-stat"><span class="fxm-live" aria-hidden="true"></span><span id="fxm-stat">reading page 01 / 48</span></span>
+      </div>
+      <div class="fxm-screen"><canvas id="fxm" aria-hidden="true"></canvas></div>
+      <figcaption class="fxm-cap"><span data-i18n="fxm_a">ThikBid reads the full notice, checks it against your profile, and sends you only the lines that matter.</span><span class="fxm-hint" aria-hidden="true">move your cursor over it</span></figcaption>
+    </figure>
+
+    <div class="fx-grid">
+      <!-- 01 qualify -->
+      <article class="fx-card dark fx-q up">
+        <div class="fx-print" aria-hidden="true"><div class="fx-print-in" id="fx-print"></div><div class="fx-print-in lit" id="fx-print-lit"></div></div>
+        <span class="fx-no" aria-hidden="true">01</span>
+        <div class="fx-copy">
+          <span class="fx-tag" data-i18n="fq_t">Starter and above</span>
+          <h3 data-i18n="fq_h">“Do I qualify?” on every tender</h3>
+          <p data-i18n="fq_p">Tell us your contractor class, turnover band and years of experience once. We check each tender's conditions and quote the line from the notice, so you know before you open a 40-page PDF.</p>
+          <a class="fx-link" href="/tenders"><span data-i18n="fq_a">Open a tender page</span> <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="fx-qc" id="fx-qc" aria-hidden="true">
+          <div class="fx-qc-h"><b>RCC culvert, Kampur–Nagaon road</b><small>PWD ROADS · ₹48.6 LAKH</small></div>
+          <ul>
+            <li class="ok"><span>Contractor class</span><b>Class II or above</b><i></i></li>
+            <li class="ok"><span>Avg. turnover</span><b>₹25 lakh+</b><i></i></li>
+            <li class="ok"><span>Experience</span><b>3 years</b><i></i></li>
+            <li class="chk"><span>Similar work</span><b>1 × ₹20 lakh</b><i></i></li>
+          </ul>
+          <div class="fx-qc-v"><span class="fx-badge">Likely yes</span><span class="fx-quote" data-scr="cl. 4.2 › “one similar work of ₹20 lakh in the last 5 years”">cl. 4.2 › “one similar work of ₹20 lakh in the last 5 years”</span></div>
+        </div>
+      </article>
+
+      <!-- 02 corrigendum -->
+      <article class="fx-card fx-c up">
+        <span class="fx-no" aria-hidden="true">02</span>
+        <div class="fx-term" aria-hidden="true">
+          <div class="fx-term-bar"><i></i><i></i><i></i><span>corrigendum 2 · PWD/NGN/0412</span></div>
+          <pre id="fx-diff"></pre>
+        </div>
+        <div class="fx-wa1" aria-hidden="true"><span class="fx-wa1-ic">!</span><span><b>Last date moved</b> 4 Nov → 11 Nov · EMD now ₹48,600</span></div>
+        <div class="fx-copy">
+          <span class="fx-tag" data-i18n="fx_ct">Pro and Firm</span>
+          <h3 data-i18n="fx_ch">Told when a tender changes</h3>
+          <p data-i18n="fx_cp">Dates move and amounts change. We track every corrigendum and message you what changed, in one line.</p>
+        </div>
+      </article>
+
+      <!-- 03 instant -->
+      <article class="fx-card pink fx-i up">
+        <span class="fx-no" aria-hidden="true">03</span>
+        <div class="fx-day" aria-hidden="true">
+          <div class="fx-ping" id="fx-ping"><span class="fx-ping-d"></span><b>Top match · just approved</b><small>Bitumen road, Titabar · ₹1.2 cr</small></div>
+          <div class="fx-tl" id="fx-tl"></div>
+          <div class="fx-tl-l"><span>9 PM</span><span class="qt">└── quiet ──┘</span><span>7 AM</span><span>9 PM</span></div>
+        </div>
+        <div class="fx-copy">
+          <span class="fx-tag" data-i18n="fi_t">Pro and Firm</span>
+          <h3 data-i18n="fi_h">Instant alerts for top matches</h3>
+          <p data-i18n="fi_p">Your best matches arrive the moment they are checked, not the next morning. Never between 9 PM and 7 AM.</p>
+        </div>
+      </article>
+
+      <!-- 04 my thikbid -->
+      <article class="fx-card fx-m up">
+        <span class="fx-no" aria-hidden="true">04</span>
+        <div class="fx-copy">
+          <h3 data-i18n="fm_h">My ThikBid: saved tenders, profile, billing</h3>
+          <p data-i18n="fm_p">Your shortlist, reminders and plan in one place. No password: send PROFILE on WhatsApp and we reply with a one-time login link.</p>
+          <div class="fx-login" aria-hidden="true"><code>PROFILE</code><span>──→</span><span class="fx-login-l">🔗 one-time login link</span></div>
+          <a class="fx-link" href="/me"><span data-i18n="fm_a">Open My ThikBid</span> <span aria-hidden="true">→</span></a>
+        </div>
+        <div class="fx-me">
+          <div class="fx-tabs" role="tablist" aria-label="My ThikBid preview">
+            <button role="tab" id="fxt-0" aria-selected="true" aria-controls="fxp-0">Saved</button>
+            <button role="tab" id="fxt-1" aria-selected="false" aria-controls="fxp-1" tabindex="-1">Profile</button>
+            <button role="tab" id="fxt-2" aria-selected="false" aria-controls="fxp-2" tabindex="-1">Billing</button>
+            <span class="fx-tabs-ind" aria-hidden="true"></span>
+          </div>
+          <div class="fx-panes">
+            <div class="fx-pane on" role="tabpanel" id="fxp-0" aria-labelledby="fxt-0">
+              <div class="fx-row"><div><b>Drain along Bora Road</b><small>Sivasagar · reminder on</small></div><span class="fx-left"><i style="--w:.2"></i>3 days</span></div>
+              <div class="fx-row"><div><b>Kopili embankment, Pipora</b><small>Nagaon · ₹62 lakh</small></div><span class="fx-left"><i style="--w:.55"></i>9 days</span></div>
+              <div class="fx-row"><div><b>RCC culvert, Kampur</b><small>Nagaon · corrigendum 2</small></div><span class="fx-left"><i style="--w:.8"></i>24 days</span></div>
+            </div>
+            <div class="fx-pane" role="tabpanel" id="fxp-1" aria-labelledby="fxt-1" hidden>
+              <dl class="fx-dl"><div><dt>Districts</dt><dd>Nagaon, Sivasagar</dd></div><div><dt>Work</dt><dd>Road, Drain, Culvert</dd></div><div><dt>Class</dt><dd>Class II</dd></div><div><dt>Turnover</dt><dd>₹25–50 lakh</dd></div><div><dt>Language</dt><dd>English</dd></div></dl>
+            </div>
+            <div class="fx-pane" role="tabpanel" id="fxp-2" aria-labelledby="fxt-2" hidden>
+              <div class="fx-bill"><span class="fx-tag">Pro</span><b>₹2,499<small>/mo</small></b><span>Renews on 12 Nov · UPI</span></div>
+              <div class="fx-row"><div><b>Invoice, October</b><small>Paid · ₹2,499</small></div><span class="fx-dl-pdf">PDF ↓</span></div>
+            </div>
+          </div>
+        </div>
+      </article>
+
+      <!-- 05 commands -->
+      <article class="fx-card dark fx-k up">
+        <span class="fx-no" aria-hidden="true">05</span>
+        <div class="fx-k-l">
+          <div class="fx-copy">
+            <h3 data-i18n="fk_h">You stay in control</h3>
+            <p data-i18n="fk_p">Reply with one word, any time.</p>
+          </div>
+          <div class="fx-keys" id="fx-keys" role="group" aria-label="WhatsApp commands. Pick one to see the reply.">
+            <button class="fx-key" data-cmd="STOP" aria-pressed="true"><b>STOP</b><span data-i18n="k_stop">stop all messages</span></button>
+            <button class="fx-key" data-cmd="PAUSE" aria-pressed="false"><b>PAUSE</b><span data-i18n="k_pause">take a break</span></button>
+            <button class="fx-key" data-cmd="CHANGE" aria-pressed="false"><b>CHANGE</b><span data-i18n="k_change">edit district or work</span></button>
+            <button class="fx-key" data-cmd="SAVED" aria-pressed="false"><b>SAVED</b><span data-i18n="k_saved">see your shortlist</span></button>
+            <button class="fx-key" data-cmd="LANGUAGE" aria-pressed="false"><b>LANGUAGE</b><span data-i18n="k_lang">switch language</span></button>
+            <button class="fx-key" data-cmd="PLAN" aria-pressed="false"><b>PLAN</b><span data-i18n="k_plan">upgrade or renew</span></button>
+          </div>
+        </div>
+        <div class="fx-k-r">
+          <canvas class="fx-word" id="fx-word" aria-hidden="true"></canvas>
+          <div class="fx-chat" id="fx-chat">
+            <div class="fx-out"><span id="fx-chat-cmd">STOP</span><small>07:02 <i>✓✓</i></small></div>
+            <div class="fx-in" id="fx-chat-in"></div>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- TRY -->
+<section class="sec" id="try">
+  <div class="try-bg" aria-hidden="true">
+    <svg class="try-land" viewBox="0 0 1440 320" preserveAspectRatio="xMidYMax slice">
+      <path fill="#EBCFC8" opacity=".5" d="M0 205C110 150 210 172 320 140S520 168 640 150 860 92 980 120 1200 108 1300 128 1420 140 1440 146V320H0Z"/>
+      <path fill="#D9DCC9" opacity=".55" d="M0 248C140 208 260 230 380 214S640 240 780 228 1040 190 1180 210 1380 214 1440 220V320H0Z"/>
+      <rect y="266" width="1440" height="54" fill="#F2E9DC"/>
+      <g stroke="#DCCDBC" stroke-width="1.4" stroke-linecap="round" opacity=".9"><path d="M120 280h60M260 288h90M470 279h44M640 292h110M860 282h60M1010 290h80M1180 280h50M1300 294h70M60 300h40M380 304h70M760 306h50M1110 304h60"/></g>
+      <g fill="#A9BBA0" opacity=".5">
+        <ellipse cx="38" cy="238" rx="30" ry="34"/><ellipse cx="86" cy="226" rx="36" ry="44"/><ellipse cx="136" cy="246" rx="26" ry="26"/><ellipse cx="176" cy="252" rx="18" ry="18"/>
+        <ellipse cx="1240" cy="246" rx="22" ry="24"/><ellipse cx="1278" cy="238" rx="28" ry="32"/><ellipse cx="1404" cy="236" rx="34" ry="40"/>
+      </g>
+      <g stroke="#8FA587" stroke-width="3" opacity=".55"><path d="M86 266v-30M38 266v-22M1278 266v-22M1404 266v-26"/></g>
+      <g fill="none" stroke="#8FA587" stroke-width="2.4" stroke-linecap="round" opacity=".6">
+        <path d="M1340 266c2-30 6-54 14-74"/><path d="M1354 192c-14-6-30-2-40 8M1354 192c-8-12-24-16-36-12M1354 192c10-12 26-14 38-8M1354 192c14-2 28 6 34 18M1354 192c2-14-4-26-14-32"/>
+      </g>
+      <g fill="#C7404A" opacity=".42">
+        <path d="M0 320c10-40 34-70 70-86-14 34-34 64-70 86z"/><path d="M28 320c4-50 22-88 56-112-6 44-24 82-56 112z"/><path d="M70 320c16-32 44-52 84-58-22 26-50 46-84 58z"/>
+        <path d="M1440 320c-12-38-36-64-72-78 14 32 36 60 72 78z"/><path d="M1412 320c-6-44-24-78-58-98 8 40 26 74 58 98z"/>
+      </g>
+      <g fill="none" stroke="#9C6A6E" stroke-width="1.6" stroke-linecap="round" opacity=".55">
+        <path d="M210 120q6-6 12 0q6-6 12 0"/><path d="M246 142q4-4 8 0q4-4 8 0"/><path d="M1180 96q6-6 12 0q6-6 12 0"/>
+      </g>
+    </svg>
+  </div>
+  <div class="wrap">
+    <div class="sec-head left">
+      <span class="label" data-i18n="try_label">Try it here</span>
+      <h2><span class="mask"><span class="ri" data-i18n="try_h">See your own <em class="s">morning message.</em></span></span></h2>
+    </div>
+    <div class="try-grid">
+      <div class="map-col">
+        <div class="atlas" id="atlas">
+          <div class="atlas-top">
+            <nav class="crumbs" aria-label="Map level">
+              <button class="crumb" id="atlas-back" type="button" disabled><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M19 12H5M11 18l-6-6 6-6"/></svg><span data-i18n="map_india">India</span></button>
+              <span class="crumb-sep" aria-hidden="true">/</span>
+              <span class="crumb-cur" id="atlas-cur" data-i18n="map_assam">Assam</span>
+            </nav>
+          </div>
+          <div class="atlas-foot"><p id="atlas-status"></p></div>
+          <div class="atlas-map" id="atlas-map">
+            <svg id="atlas-svg" role="group" aria-label="Map of India. Assam is live; pick your district." preserveAspectRatio="xMidYMid meet"></svg>
+            <div class="atlas-tag" id="atlas-tag" aria-hidden="true"></div>
+            <div class="atlas-tip" id="atlas-tip" role="status"></div>
+          </div>
+        </div>
+        <div class="tune">
+          <div class="tune-row">
+            <span class="tune-k" data-i18n="try_work">Work</span>
+            <div class="chips" role="radiogroup" aria-label="Your work" id="work"></div>
+          </div>
+          <div class="tune-row">
+            <span class="tune-k" data-i18n="try_lang">Language</span>
+            <div class="seg" role="radiogroup" aria-label="Language" id="lang">
+              <button class="chip" role="radio" aria-checked="true" data-v="en" id="lang-en">English</button>
+              <button class="chip indic" role="radio" aria-checked="false" data-v="as" id="lang-as">অসমীয়া</button>
+            </div>
+          </div>
+        </div>
+        <div class="demo">
+          <button id="demo-btn" aria-pressed="true"><svg id="demo-ic" width="12" height="12" viewBox="0 0 24 24" fill="currentColor"><path d="M7 5h4v14H7zM13 5h4v14h-4z"/></svg><span id="demo-l">Auto demo playing</span></button>
+          <span class="bar" aria-hidden="true"><i id="demo-bar"></i></span>
+        </div>
+        <p class="note" data-i18n="try_note">Tap any district or work type to make it yours. This is an example message; real ones use live tenders, with names exactly as the office wrote them.</p>
+      </div>
+      <div class="try-phone"><div class="pw" data-phone="try" aria-live="polite"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- PROBLEM (stacking cards) -->
+<section class="sec" style="padding-top:0" id="problem">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="label" data-i18n="pr_label">Why good contractors miss work</span>
+      <h2><span class="mask"><span class="ri" data-i18n="pr_h">The old way <em class="s">wastes</em> your day.</span></span></h2>
+    </div>
+    <div class="stack" id="stack">
+      <article class="scard c1" style="--i:0"><div><span class="tag" data-i18n="c1_t">Problem · too many websites</span><h3 data-i18n="c1_h">5 to 7 places to check. Every day.</h3><p data-i18n="c1_p">State portals, GeM, central sites, railways, newspapers. Each one with its own login and layout.</p></div>
+        <div class="art"><div style="width:100%;display:grid;justify-items:center"><div class="brw" aria-hidden="true"><div class="brw-tabs" id="tabs"></div><div class="brw-bar"><i class="spin"></i><span id="brw-url">assamtenders.gov.in</span></div><div class="brw-body"><div class="sk m"></div><div class="sk"></div><div class="sk s"></div><div class="sk m"></div><div class="sk s"></div><div class="toast" id="toast">Session expired. Please log in again.</div></div></div><div class="tabn"><b id="tabn">1</b><span data-i18n="c1_n">tabs open</span></div></div></div><span class="shade"></span></article>
+      <article class="scard c2" style="--i:1"><div><span class="tag" data-i18n="c2_t">Problem · too little time</span><h3 data-i18n="c2_h">The clock starts before you know.</h3><p data-i18n="c2_p">Many tenders give only 10 to 21 days to bid. Hear about it a week late and half your time is gone.</p></div>
+        <div class="art"><div class="cd" aria-hidden="true"><div class="cd-n"><span id="cdn">21</span><small data-i18n="c2_s">days left to bid</small></div><div class="cd-bar" id="cdbar"><i></i><span class="fuse"></span><span class="cd-mark" id="cdmark" data-i18n="c2_m">You hear about it</span></div></div></div><span class="shade"></span></article>
+      <article class="scard c3" style="--i:2"><div><span class="tag" data-i18n="c3_t">Problem · too much paper</span><h3 data-i18n="c3_h">Captcha codes and 40-page PDFs.</h3><p data-i18n="c3_p">Long English documents just to find the work, the place and the last date. Or pay someone at a cyber café to do it.</p></div>
+        <div class="art"><div class="paper" aria-hidden="true"><div class="pg"></div><div class="pg"></div><div class="pg top" id="pgtop"><div class="sk m"></div><div class="sk"></div><div class="hlite" id="hlite"></div><div class="sk s"></div><div class="sk m"></div><div class="sk"></div><div class="sk s"></div></div><span class="pg-n">NIT_corrigendum_2.pdf · <b id="pgn">1</b>/48</span><div class="capt"><div class="cimg"><span>7</span><span>x</span><span>Q</span><span>9</span><span>p</span></div><div class="cin">Type the code above…</div></div></div></div><span class="shade"></span></article>
+      <article class="scard c4" style="--i:3"><div><span class="tag" data-i18n="c4_t">The ThikBid way</span><h3 data-i18n="c4_h">One message. 7 AM. Only your work.</h3><p data-i18n="c4_p">What it is, where, how much, and the last date. With a reminder before it closes.</p><a class="btn soft magnetic" style="margin-top:26px" data-wa href="https://wa.me/919387854327?text=Hi%20ThikBid%20%5Bweb%5D" target="_blank" rel="noopener"><span class="lbl"><span data-i18n="c4_b">Try it free</span><span>Say Hi</span></span></a></div>
+        <div class="art"><div class="badge7" aria-hidden="true"><small>EVERY DAY</small>7:00 AM</div><div class="pw" data-phone="c4" aria-hidden="true"></div></div></article>
+    </div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section class="sec stats" id="stats">
+  <div class="wrap">
+    <div class="sec-head"><span class="label" data-i18n="st_label">Why this matters</span><h2><span class="mask"><span class="ri" data-i18n="st_h">Big money. <em class="s">Small</em> windows.</span></span></h2></div>
+    <div class="stat-grid" id="stat-grid">
+      <div class="stat big up">
+        <div><div class="v" data-count="489">489</div><p style="margin-top:12px" data-i18n="st1">open tenders on Assam's tender website on one day (17 Oct 2026), from 49 different offices.</p><a href="https://assamtenders.gov.in/nicgep/app?page=FrontEndTendersByOrganisation&amp;service=page" target="_blank" rel="noopener">assamtenders.gov.in</a></div>
+        <div style="display:grid;gap:12px"><div class="dots" id="dots" aria-hidden="true"></div><div class="dots-leg"><span data-i18n="st1a">Every open tender</span><span class="m" data-i18n="st1b">The few that fit you</span></div></div>
+      </div>
+      <div class="stat wide up">
+        <div><div class="v" data-count="10.82">10.82<em>lakh</em></div><p style="margin-top:12px" data-i18n="st2">small businesses (MSMEs) registered in Assam. Many of them can bid.</p><a href="https://eparlib.sansad.in/bitstream/123456789/3008050/1/AU3445_ixYpvL.pdf" target="_blank" rel="noopener">Lok Sabha, Q.3445 (2025)</a></div>
+        <div class="people" id="people" aria-hidden="true"></div>
+      </div>
+      <div class="stat up">
+        <div><div class="v">10–21<em>days</em></div><p style="margin-top:12px" data-i18n="st3">is all the time you get to bid on most Assam water-works tenders.</p><a href="https://waterresources.assam.gov.in/resource/tenders" target="_blank" rel="noopener">Water Resources Dept, Assam</a></div>
+        <div class="daystrip" id="daystrip" aria-hidden="true"></div>
+      </div>
+      <div class="stat up">
+        <div class="coins" id="coins" aria-hidden="true"></div>
+        <div><div class="v" data-count="5.4" data-pre="₹">₹5.4</div><div class="v" style="font-size:.5em;margin-top:2px"><em style="margin-left:0">lakh crore</em></div><p style="margin-top:12px" data-i18n="st4">of goods and services the government bought on GeM in one year (FY25).</p><a href="https://www.thestatesman.com/business/gem-marks-9th-anniversary-adds-rs-5-4-trillion-in-gross-merchandise-value-1503468791.html" target="_blank" rel="noopener">The Statesman</a></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- STATEMENT + FILM -->
+<section class="statement">
+  <div class="wrap"><h2 id="statement" aria-label="Built for the people who build India.">Built for the people who build India.</h2></div>
+</section>
+<section class="expand" id="expand" aria-label="Construction crew at work">
+  <div class="expand-sticky">
+    <div class="expand-media" id="expand-media">
+      <video muted loop playsinline autoplay preload="metadata" poster="/assets/site-crew-drift-poster.webp"><source src="/assets/site-crew-drift.mp4" type="video/mp4"></video>
+    </div>
+    <div class="expand-txt" id="expand-txt"><h2 data-i18n="ex_h">Search less. <em>Build more.</em></h2><p data-i18n="ex_p">Your time belongs on the site, not on tender websites.</p></div>
+  </div>
+</section>
+
+<!-- WHO: three kinds of customer, each with its own page -->
+<section class="sec" id="who">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="label" data-i18n="who_label">Who it's for</span>
+      <h2><span class="mask"><span class="ri" data-i18n="who_h">One contractor or a <em class="s">whole team.</em></span></span></h2>
+    </div>
+    <p class="lede who-lede" data-i18n="who_p">Pick the way you work. Every path starts on WhatsApp, with no app to install.</p>
+    <div class="who-grid">
+      <a class="wc up" data-wa href="https://wa.me/919387854327?text=Hi%20ThikBid%20%5Bweb%5D" target="_blank" rel="noopener">
+        <div class="wc-top"><span class="wc-n">01</span><span class="wc-tag" data-i18n="w1_t">Free plan</span><span class="wc-ic" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M3 21h18M5 21V10l7-5 7 5v11"/><path d="M9.5 21v-6h5v6"/></svg></span></div>
+        <h3 data-i18n="w1_h">Contractors &amp; suppliers</h3>
+        <p data-i18n="w1_p">Owner-run firms who bid in a few districts. Your tenders every morning, reminders, and “do I qualify?”.</p>
+        <div class="wc-stat"><b>₹0</b><span data-i18n="w1_s">free forever for one district</span></div>
+        <span class="wc-go"><span data-i18n="w1_a">Start free on WhatsApp</span> <span class="wc-ar" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M7 17 17 7M8 7h9v9"/></svg></span></span>
+      </a>
+      <a class="wc dark up" href="/firm">
+        <div class="wc-top"><span class="wc-n">02</span><span class="wc-tag" data-i18n="w2_t">Firm plan</span><span class="wc-ic" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.2"/><path d="M3 20c.6-3.4 3-5.5 6-5.5s5.4 2.1 6 5.5"/><path d="M16 4.8a3.2 3.2 0 0 1 0 6.4M18 14.8c1.6.8 2.7 2.6 3 5.2"/></svg></span></div>
+        <h3 data-i18n="w2_h">Firms &amp; bid teams</h3>
+        <p data-i18n="w2_p">5 WhatsApp seats for your engineers and accountant, every district in your states, and award-price history to price bids better.</p>
+        <div class="wc-stat"><b>5</b><span data-i18n="w2_s">WhatsApp seats on one plan</span></div>
+        <span class="wc-go"><span data-i18n="w2_a">See ThikBid for firms</span> <span class="wc-ar" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+      </a>
+      <a class="wc pink up" href="/partners">
+        <div class="wc-top"><span class="wc-n">03</span><span class="wc-tag" data-i18n="w3_t">Partner programme</span><span class="wc-ic" aria-hidden="true"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10 13a4 4 0 0 0 5.7.3l3-3a4 4 0 0 0-5.7-5.7l-1.5 1.5"/><path d="M14 11a4 4 0 0 0-5.7-.3l-3 3a4 4 0 0 0 5.7 5.7l1.5-1.5"/></svg></span></div>
+        <h3 data-i18n="w3_h">Accountants &amp; associations</h3>
+        <p data-i18n="w3_p">Already help contractors with tenders? Share your link and earn 20% of every payment for 12 months.</p>
+        <div class="wc-stat"><b>20%</b><span data-i18n="w3_s">of every payment, for 12 months</span></div>
+        <span class="wc-go"><span data-i18n="w3_a">Become a partner</span> <span class="wc-ar" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- PRICE -->
+<section class="sec" id="price">
+  <div class="wrap price-grid">
+    <div style="display:grid;gap:18px">
+      <span class="label" data-i18n="pr2_label">Pricing</span>
+      <h2><span class="mask"><span class="ri" data-i18n="price_h">Start free. <em class="s">Pay when it pays.</em></span></span></h2>
+      <p class="lede" data-i18n="price_p">Free forever for one district and one type of work. New users get 14 days of Starter free. No card, no form. Type <b style="font-family:var(--f-mono);color:var(--maroon)">STOP</b> any time.</p>
+      <ol class="plan-line" id="plan-line"></ol>
+      <a class="all-link" href="/pricing"><span data-i18n="p_compare">Compare all plans</span> <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg></a>
+    </div>
+    <div class="pcard up" id="pcard">
+      <div class="band" aria-hidden="true"></div>
+      <div class="p-top"><span class="pill"><span class="dot"></span><span data-i18n="p_pill">Starter · new users</span></span><span class="p-was" id="p-was"><s id="p-full">₹999</s>/<span data-i18n="p_mo">mo</span></span></div>
+      <div class="p-big"><span class="num" id="p-num">₹0</span><small data-i18n="p_per">for 14 days</small></div>
+      <div class="p-stamp" id="p-stamp" aria-hidden="true">14 days<br>free</div>
+      <ul class="p-list" id="p-list"></ul>
+      <div class="p-foot">
+        <a class="btn red magnetic" data-wa href="https://wa.me/919387854327?text=Hi%20ThikBid%20%5Bweb%5D" target="_blank" rel="noopener"><span class="ic" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.7-5.2A8.5 8.5 0 1 1 21 12z"/></svg></span><span class="lbl"><span data-i18n="p_cta">Start on WhatsApp</span><span data-i18n="p_cta2">Takes 1 minute</span></span></a>
+        <span data-i18n="p_note">Then ₹999 a month, or stay on Free. Prices include GST.</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- FAQ -->
+<section class="sec" id="faq" style="padding-top:0">
+  <div class="wrap faq-grid">
+    <div class="faq-left">
+      <span class="label" data-i18n="faq_label">Questions</span>
+      <h2><span class="mask"><span class="ri" data-i18n="faq_h">Simple <em class="s">answers.</em></span></span></h2>
+      <p class="lede" data-i18n="faq_p">Tap a question. ThikBid answers the same way it would on WhatsApp.</p>
+      <div class="qs" id="qs"></div>
+    </div>
+    <div class="chatpanel" id="faq-panel">
+      <div class="whd"><span class="wav"><svg width="16" height="16" viewBox="0 0 20 20"><path d="M10 2 18 10 10 18 2 10Z" fill="#fff"/><path d="M10 6.5 13.5 10 10 13.5 6.5 10Z" fill="#B91F2B"/></svg></span><div class="wnm"><b>ThikBid</b><small data-sub>online</small></div></div>
+      <div class="wch" id="faq-chat" aria-live="polite"></div>
+      <div class="win"><div class="fld"><span>Message</span></div><span class="mic"><svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M12 14a3 3 0 0 0 3-3V5a3 3 0 0 0-6 0v6a3 3 0 0 0 3 3zm5-3a5 5 0 0 1-10 0H5a7 7 0 0 0 6 6.9V21h2v-3.1A7 7 0 0 0 19 11z"/></svg></span></div>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section class="final" id="start">
+  <div class="wrap">
+    <div class="final-card" id="final-card">
+      <div class="diamonds" id="diamonds" aria-hidden="true"></div>
+      <h2><span class="mask"><span class="ri" data-i18n="fin_h">Your next work is <em>already</em> posted.</span></span></h2>
+      <p style="font-size:clamp(17px,1.5vw,21px);opacity:.92;max-width:44ch;position:relative" data-i18n="fin_p">Let ThikBid find it and send it to you tomorrow morning.</p>
+      <a class="btn magnetic" data-wa href="https://wa.me/919387854327?text=Hi%20ThikBid%20%5Bweb%5D" target="_blank" rel="noopener"><span class="ic" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.7-5.2A8.5 8.5 0 1 1 21 12z"/></svg></span><span class="lbl"><span data-i18n="fin_b">Say “Hi” to ThikBid</span><span data-i18n="cta_hi2">It's free to start</span></span></a>
+      <a class="fin-alt" href="/tenders"><span data-i18n="fin_alt">Or browse today's open tenders</span> →</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="ft">
+  <div class="wrap ft-top">
+    <a class="logo" href="#top" aria-label="ThikBid home"><span class="logo-mark" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 20 20"><path d="M10 2 18 10 10 18 2 10Z" fill="#fff"/><path d="M10 6.5 13.5 10 10 13.5 6.5 10Z" fill="#B91F2B"/><path d="M10 8.8 11.2 10 10 11.2 8.8 10Z" fill="#fff"/></svg></span><span>Thik<b>Bid</b></span></a>
+    <a class="btn red" data-wa href="https://wa.me/919387854327?text=Hi%20ThikBid%20%5Bweb%5D" target="_blank" rel="noopener"><span class="ic" aria-hidden="true"><svg width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.7-5.2A8.5 8.5 0 1 1 21 12z"/></svg></span><span class="lbl"><span data-i18n="nav_cta">Start free</span><span>Say Hi</span></span></a>
+  </div>
+  <div class="wrap ft-cols">
+    <nav aria-label="Product"><b data-i18n="fc_prod">Product</b><a href="#how" data-i18n="nav_how">How it works</a><a href="#features" data-i18n="nav_feat">Features</a><a href="#try" data-i18n="nav_try">Try it</a><a href="#faq" data-i18n="nav_faq">FAQ</a></nav>
+    <nav aria-label="Tenders"><b data-i18n="fc_tend">Tenders</b><a href="/tenders" data-i18n="nav_tenders">Open tenders</a><a href="/tenders/kamrup-metro">Kamrup Metro</a><a href="/tenders/jorhat">Jorhat</a><a href="/tenders/nagaon">Nagaon</a></nav>
+    <nav aria-label="Plans"><b data-i18n="fc_plans">Plans</b><a href="/pricing" data-i18n="nav_plans">Plans &amp; pricing</a><a href="/firm" data-i18n="nav_firm">For firms</a><a href="/partners" data-i18n="nav_partners">Partner programme</a><a href="/me" data-i18n="nav_me">My ThikBid</a><a href="/start" data-i18n="nav_signup">Get started</a><a href="/login" data-i18n="nav_login">Log in</a></nav>
+    <nav aria-label="Legal"><b data-i18n="fc_legal">Legal</b><a href="/privacy.html" data-i18n="fl_priv">Privacy</a><a href="/terms.html" data-i18n="fl_terms">Terms</a><a href="/consent.html" data-i18n="fl_consent">WhatsApp consent</a><a data-wa href="https://wa.me/919387854327?text=Hi%20ThikBid%20%5Bweb%5D" target="_blank" rel="noopener">WhatsApp ↗</a></nav>
+  </div>
+  <div class="wrap ft-mid">
+    <p data-i18n="ft_p">ThikBid is not a government service. We read public tender notices and send them to you. Always check the final details on the official website before you bid.</p>
+    <p>© 2026 ThikBid · <span data-i18n="ft_m">Made in Assam</span></p>
+    <a class="maker" href="https://www.instagram.com/prtm.srma/" target="_blank" rel="noopener" aria-label="Made by Pritam, on Instagram @prtm.srma"><img src="/assets/pritam.jpg" alt="" width="28" height="28" loading="lazy"><span>Made by <b>Pritam</b></span><i>@prtm.srma ↗</i></a>
+  </div>
+  <div class="ft-word" id="ft-word" aria-hidden="true"><span>T</span><span>h</span><span>i</span><span>k</span><span class="r">B</span><span class="r">i</span><span class="r">d</span></div>
+</footer>
+</body>
+</html>

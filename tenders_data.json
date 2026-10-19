@@ -1,0 +1,931 @@
+{
+  "metadata": {
+    "dataset_version": "2026-10-20",
+    "description": "ThikBid verified tender database reverse-engineered from application bundles and public procurement portals",
+    "source_portals": [
+      {
+        "id": "assam_tenders",
+        "name": "Assam Tenders",
+        "portal_url": "https://assamtenders.gov.in",
+        "system": "NIC eProcurement (GePNIC)"
+      },
+      {
+        "id": "gem",
+        "name": "Government e-Marketplace (GeM)",
+        "portal_url": "https://gem.gov.in",
+        "system": "GeM SPV"
+      },
+      {
+        "id": "cppp",
+        "name": "Central Public Procurement Portal (CPPP)",
+        "portal_url": "https://eprocure.gov.in",
+        "system": "NIC CPPP"
+      },
+      {
+        "id": "ireps",
+        "name": "Indian Railways E-Procurement System (IREPS)",
+        "portal_url": "https://www.ireps.gov.in",
+        "system": "CRIS IREPS"
+      }
+    ],
+    "state": "Assam",
+    "state_code": "AS"
+  },
+  "facets": {
+    "totals": {
+      "open": 12,
+      "value": 54950000,
+      "closing_week": 5,
+      "new_week": 8
+    },
+    "byDistrict": [
+      { "slug": "nagaon", "n": 1 },
+      { "slug": "kamrup-metropolitan", "n": 2 },
+      { "slug": "barpeta", "n": 1 },
+      { "slug": "jorhat", "n": 1 },
+      { "slug": "dibrugarh", "n": 1 },
+      { "slug": "sonitpur", "n": 1 },
+      { "slug": "golaghat", "n": 1 },
+      { "slug": "hojai", "n": 1 },
+      { "slug": "cachar", "n": 1 },
+      { "slug": "kokrajhar", "n": 1 },
+      { "slug": "lakhimpur", "n": 1 }
+    ],
+    "byTrade": [
+      { "trade": "road", "n": 2 },
+      { "trade": "supply", "n": 2 },
+      { "trade": "water", "n": 1 },
+      { "trade": "flood", "n": 2 },
+      { "trade": "building", "n": 2 },
+      { "trade": "electrical", "n": 2 },
+      { "trade": "bridge", "n": 1 }
+    ]
+  },
+  "tenders": [
+    {
+      "id": "tb-tender-001",
+      "slug": "rcc-culvert-kampur-nagaon-pwd",
+      "title": "Construction of RCC culvert on Kampur-Nagaon road, Ch. 12.4 km",
+      "tender_ref": "NIT/PWRD/NGN/RBD/2026-27/04",
+      "department": "Public Works (Roads) Department",
+      "organisation": "Govt of Assam",
+      "district": "nagaon",
+      "district_name": "Nagaon",
+      "district_name_as": "নগাঁও",
+      "location_text": "Kampur to Nagaon Road, Nagaon District",
+      "state": "AS",
+      "trade": "road",
+      "status": "open",
+      "value_inr": 4860000,
+      "emd_inr": 97200,
+      "fee_inr": 1000,
+      "published_at": "2026-10-15T10:00:00+05:30",
+      "query_until": "2026-10-25T16:00:00+05:30",
+      "bid_close_at": "2026-11-04T15:00:00+05:30",
+      "opening_at": "2026-11-05T15:30:00+05:30",
+      "source_portal": "Assam Tenders",
+      "source_name": "Assam Tenders",
+      "source_url": "https://assamtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTenderDetails&service=direct&sp=S2026_PWRD_39812_1",
+      "source_ref": "2026_PWRD_39812_1",
+      "has_corrigendum": false,
+      "summary_en": "Construction of single-span RCC box culvert at Ch. 12.40 km on Kampur-Nagaon PWD road with boulder pitching and bituminous approach ramp.",
+      "summary_as": "কামপুৰ-নগাঁও পথৰ ১২.৪ কিলোমিটাৰত আৰচিচি বক্স কালভাৰ্ট নিৰ্মাণ আৰু এপ্রোচ ৰোডৰ পিচিং কাম।",
+      "summary_hi": "कामपुर-नगांव रोड के 12.4 किमी पर आरसीसी बॉक्स कल्वर्ट और एप्रोच रोड का निर्माण कार्य।",
+      "conditions": [
+        {
+          "field": "registration_class",
+          "value": "class_2",
+          "unsure": false,
+          "quote": "Contractor must be registered under Class II or above with Public Works Department, Assam (Civil wing)."
+        },
+        {
+          "field": "min_years_experience",
+          "value": 3,
+          "unsure": false,
+          "quote": "The bidder must have minimum 3 years of civil construction experience with government/semi-government bodies."
+        },
+        {
+          "field": "min_turnover_inr",
+          "value": 2500000,
+          "unsure": false,
+          "quote": "Average annual financial turnover during the last 3 financial years must not be less than Rs 25,00,000."
+        },
+        {
+          "field": "similar_work",
+          "value": "Construction of RCC bridge, culvert or protective retaining wall under PWD/NHAI",
+          "unsure": false,
+          "quote": "4.2 Similar work: Must have successfully completed at least one similar work of RCC bridge/culvert of value not less than Rs 20 lakh in the last 5 years."
+        },
+        {
+          "field": "similar_work_value_inr",
+          "value": 2000000,
+          "unsure": false,
+          "quote": "Single similar work order value >= INR 20.00 Lakhs."
+        },
+        {
+          "field": "msme_exemption",
+          "value": false,
+          "unsure": false,
+          "quote": "EMD exemption for MSME/Udyam is not applicable for works contracts under Assam PWD rules."
+        },
+        {
+          "field": "joint_venture_allowed",
+          "value": false,
+          "unsure": false,
+          "quote": "Joint Venture / Consortium bidding is strictly prohibited for contract values below Rs 5 Crore."
+        },
+        {
+          "field": "other_conditions",
+          "value": [
+            "Valid Assam GST registration certificate and latest GSTR-3B filing",
+            "Permanent Account Number (PAN) Card",
+            "Bank solvency certificate of minimum Rs 15 Lakh from scheduled commercial bank"
+          ],
+          "unsure": false,
+          "quote": "Valid contractor registration card renewed up to 31-03-2027 along with tax clearance certificates."
+        }
+      ],
+      "versions": [
+        {
+          "version": 1,
+          "kind": "original",
+          "seen_at": "2026-10-15T10:00:00+05:30",
+          "summary": "Original NIT notice published on assamtenders.gov.in"
+        }
+      ],
+      "verdict": {
+        "verdict": "likely",
+        "reasons": [
+          { "status": "pass", "text": "Your Class II PWD registration meets the minimum requirement." },
+          { "status": "pass", "text": "Your declared turnover (₹45 Lakhs) exceeds required ₹25 Lakhs." },
+          { "status": "pass", "text": "5 years experience satisfies the 3 years minimum rule." },
+          { "status": "info", "text": "Verify your completed culvert/bridge certificate matches Clause 4.2 value (₹20L+).", "quote": "At least one similar work of Rs 20 lakh in last 5 years" }
+        ],
+        "disclaimer": "This is a guide, not a decision. The official tender document governs."
+      }
+    },
+    {
+      "id": "tb-tender-002",
+      "slug": "gem-office-furniture-guwahati-dc",
+      "title": "Supply and installation of modular office workstations and executive chairs for DC Office Campus, Kamrup Metropolitan",
+      "tender_ref": "GEM/2026/B/8941029",
+      "department": "General Administration Department",
+      "organisation": "Deputy Commissioner Office, Kamrup Metro",
+      "district": "kamrup-metropolitan",
+      "district_name": "Kamrup Metropolitan",
+      "district_name_as": "কামৰূপ মহানগৰ",
+      "location_text": "DC Office Complex, Panbazar, Guwahati - 781001",
+      "state": "AS",
+      "trade": "supply",
+      "status": "open",
+      "value_inr": 1850000,
+      "emd_inr": 37000,
+      "fee_inr": 0,
+      "published_at": "2026-10-17T11:30:00+05:30",
+      "query_until": "2026-10-24T18:00:00+05:30",
+      "bid_close_at": "2026-11-08T14:00:00+05:30",
+      "opening_at": "2026-11-08T14:30:00+05:30",
+      "source_portal": "GeM",
+      "source_name": "GeM",
+      "source_url": "https://bidplus.gem.gov.in/showbidDocument/8941029",
+      "source_ref": "GEM/2026/B/8941029",
+      "has_corrigendum": true,
+      "summary_en": "Supply, testing and site installation of 40 modular four-person workstations, ergonomic chairs, and steel filing cabinets at District Administration headquarters.",
+      "summary_as": "উপায়ুক্তৰ কার্যালয়, কামৰূপ মহানগৰৰ বাবে ৪০টা মডুলাৰ ৱৰ্কষ্টেচন, চকী আৰু ষ্টীল আলমাৰী যোগান তথা স্থাপন।",
+      "summary_hi": "उपायुक्त कार्यालय, कामरूप महानगर के लिए 40 मॉड्यूलर वर्कस्टेशन और कुर्सियों की आपूर्ति एवं स्थापना।",
+      "conditions": [
+        {
+          "field": "min_years_experience",
+          "value": 2,
+          "unsure": false,
+          "quote": "Bidder must have 2 years past experience of supplying office furniture to Central/State Govt departments."
+        },
+        {
+          "field": "min_turnover_inr",
+          "value": 1000000,
+          "unsure": false,
+          "quote": "Minimum average annual turnover of the bidder must be Rs 10 Lakh during past three consecutive financial years."
+        },
+        {
+          "field": "msme_exemption",
+          "value": true,
+          "unsure": false,
+          "quote": "EMD and tender fee exemption granted to valid Micro and Small Enterprises (MSEs) registered with Udyam."
+        },
+        {
+          "field": "joint_venture_allowed",
+          "value": false,
+          "unsure": false,
+          "quote": "Joint venture bidding is not allowed for this GeM procurement."
+        },
+        {
+          "field": "other_conditions",
+          "value": [
+            "BIFMA / ISO 9001 certification required from original equipment manufacturer",
+            "Dedicated service center contact in Kamrup Metropolitan area"
+          ],
+          "unsure": false,
+          "quote": "OEM authorization certificate must be uploaded along with bid documents."
+        }
+      ],
+      "versions": [
+        {
+          "version": 1,
+          "kind": "original",
+          "seen_at": "2026-10-17T11:30:00+05:30",
+          "summary": "Original GeM Custom Bid issued"
+        },
+        {
+          "version": 2,
+          "kind": "corrigendum",
+          "seen_at": "2026-10-19T16:15:00+05:30",
+          "summary": "Specification amendment: Partitions height changed from 1200mm to 1350mm; bid closing unchanged."
+        }
+      ],
+      "verdict": {
+        "verdict": "likely",
+        "reasons": [
+          { "status": "pass", "text": "MSME Udyam registration waives EMD deposit of ₹37,000." },
+          { "status": "pass", "text": "Annual turnover exceeds required ₹10 Lakh limit." },
+          { "status": "pass", "text": "Prior GeM supplies to Govt colleges satisfy 2 years track record." }
+        ],
+        "disclaimer": "This is a guide, not a decision. The official tender document governs."
+      }
+    },
+    {
+      "id": "tb-tender-003",
+      "slug": "piped-water-supply-scheme-sarthebari-barpeta",
+      "title": "Implementation of Piped Water Supply Scheme (PWSS) under Jal Jeevan Mission including deep tube well and distribution network at Sarthebari Block",
+      "tender_ref": "JJM/AS/BRP/2026-27/PWSS-88",
+      "department": "Public Health Engineering Department (PHED)",
+      "organisation": "Mission Directorate, Jal Jeevan Mission Assam",
+      "district": "barpeta",
+      "district_name": "Barpeta",
+      "district_name_as": "বৰপেটা",
+      "location_text": "Sarthebari Gaon Panchayat, Barpeta District",
+      "state": "AS",
+      "trade": "water",
+      "status": "open",
+      "value_inr": 8420000,
+      "emd_inr": 168400,
+      "fee_inr": 2000,
+      "published_at": "2026-10-12T14:00:00+05:30",
+      "query_until": "2026-10-22T17:00:00+05:30",
+      "bid_close_at": "2026-10-31T15:00:00+05:30",
+      "opening_at": "2026-11-01T15:00:00+05:30",
+      "source_portal": "Assam Tenders",
+      "source_name": "Assam Tenders",
+      "source_url": "https://assamtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTenderDetails&service=direct&sp=S2026_PHED_41209_1",
+      "source_ref": "2026_PHED_41209_1",
+      "has_corrigendum": false,
+      "summary_en": "Deep tube well drilling (200m depth), pump house, 50,000 litre overhead RCC service reservoir, and 4.8 km HDPE pipeline distribution for 420 household tap connections.",
+      "summary_as": "সৰ্থেবাৰী ব্লকত জল জীৱন মিছনৰ অধীনত গভীৰ নলকূপ, পানীৰ টেংকী আৰু ৪.৮ কিমি পাইপলাইন বহুওৱা কাম।",
+      "summary_hi": "सरथेबाड़ी ब्लॉक में जल जीवन मिशन के तहत गहरे नलकूप, पानी की टंकी और 4.8 किमी पाइपलाइन का कार्य।",
+      "conditions": [
+        {
+          "field": "registration_class",
+          "value": "class_1",
+          "unsure": false,
+          "quote": "Contractors must be Class I (A/B/C) registered under PHED Assam or PWD Assam."
+        },
+        {
+          "field": "min_turnover_inr",
+          "value": 5000000,
+          "unsure": false,
+          "quote": "Minimum average annual turnover should be at least 60% of estimated cost (Rs 50.50 Lakh)."
+        },
+        {
+          "field": "similar_work",
+          "value": "Execution of drinking water supply schemes or deep tube well drilling and distribution networks",
+          "unsure": false,
+          "quote": "Must have completed at least one single water supply project of minimum Rs 40 Lakh value under state or central government."
+        },
+        {
+          "field": "msme_exemption",
+          "value": false,
+          "unsure": false,
+          "quote": "No exemption from EMD for works contract."
+        },
+        {
+          "field": "joint_venture_allowed",
+          "value": true,
+          "unsure": false,
+          "quote": "Joint venture allowed with maximum 2 partners; lead partner must hold at least 51% stake."
+        }
+      ],
+      "versions": [
+        {
+          "version": 1,
+          "kind": "original",
+          "seen_at": "2026-10-12T14:00:00+05:30",
+          "summary": "Notice Inviting Tender published on Assam eProcurement portal"
+        }
+      ],
+      "verdict": {
+        "verdict": "check",
+        "reasons": [
+          { "status": "pass", "text": "Your registration class meets Class I threshold." },
+          { "status": "pass", "text": "Turnover of ₹1.1 Crore meets financial capacity requirement." },
+          { "status": "warn", "text": "Check your past PHED completion certificates for HDPE pipe pressure rating (PN-6/PN-10).", "quote": "Must have completed at least one single water supply project of minimum Rs 40 Lakh" }
+        ],
+        "disclaimer": "This is a guide, not a decision. The official tender document governs."
+      }
+    },
+    {
+      "id": "tb-tender-004",
+      "slug": "black-topping-village-road-titabar-jorhat",
+      "title": "Improvement and black-topping of village road from Titabar Chariali to Borhola (km 0.000 to km 4.250)",
+      "tender_ref": "MMRDA/JHT/PW-12/2026",
+      "department": "Public Works (Roads) Department",
+      "organisation": "Govt of Assam",
+      "district": "jorhat",
+      "district_name": "Jorhat",
+      "district_name_as": "যোৰহাট",
+      "location_text": "Titabar Subdivision, Jorhat District",
+      "state": "AS",
+      "trade": "road",
+      "status": "open",
+      "value_inr": 3850000,
+      "emd_inr": 77000,
+      "fee_inr": 1000,
+      "published_at": "2026-10-18T09:00:00+05:30",
+      "query_until": "2026-10-26T17:00:00+05:30",
+      "bid_close_at": "2026-11-06T14:00:00+05:30",
+      "opening_at": "2026-11-07T11:00:00+05:30",
+      "source_portal": "Assam Tenders",
+      "source_name": "Assam Tenders",
+      "source_url": "https://assamtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTenderDetails&service=direct&sp=S2026_PWRD_42100_1",
+      "source_ref": "2026_PWRD_42100_1",
+      "has_corrigendum": false,
+      "summary_en": "Sub-base preparation, water bound macadam (WBM Grade-III), 20mm thick premix carpet surfacing with seal coat, and road signages.",
+      "summary_as": "তিতাবৰ চাৰিআলিৰ পৰা বৰহোলালৈ ৪.২৫ কিমি পথৰ মেৰামতি আৰু ব্লেক-টপিং কাম।",
+      "summary_hi": "तीताबर चारिआली से बोरहोला तक 4.25 किमी सड़क का जीर्णोद्धार और डामरीकरण कार्य।",
+      "conditions": [
+        {
+          "field": "registration_class",
+          "value": "class_2",
+          "unsure": false,
+          "quote": "Class II and above registered contractors with PWRD Assam."
+        },
+        {
+          "field": "min_turnover_inr",
+          "value": 2000000,
+          "unsure": false,
+          "quote": "Annual average turnover should be at least Rs 20 Lakh in any 3 of last 5 years."
+        },
+        {
+          "field": "similar_work",
+          "value": "Road construction or black-topping works with bitumen hot-mix plant access",
+          "unsure": false,
+          "quote": "Contractor must own or possess confirmed tie-up with registered bitumen hot-mix plant within 40 km radius."
+        }
+      ],
+      "versions": [
+        {
+          "version": 1,
+          "kind": "original",
+          "seen_at": "2026-10-18T09:00:00+05:30",
+          "summary": "Notice published"
+        }
+      ],
+      "verdict": {
+        "verdict": "likely",
+        "reasons": [
+          { "status": "pass", "text": "Valid Class II PWD license satisfies registration tier." },
+          { "status": "pass", "text": "Turnover criteria fulfilled." },
+          { "status": "info", "text": "Attach hot-mix plant lease agreement if plant is not company-owned." }
+        ],
+        "disclaimer": "This is a guide, not a decision. The official tender document governs."
+      }
+    },
+    {
+      "id": "tb-tender-005",
+      "slug": "anti-erosion-work-geo-bags-brahmaputra-dibrugarh",
+      "title": "Anti-erosion and flood protection measures on river Brahmaputra bank using geo-textile bags and porcupine screens at Rohmoria reach",
+      "tender_ref": "WRD/DBR/AE-ROH/2026/02",
+      "department": "Water Resources Department",
+      "organisation": "Water Resources Division, Dibrugarh",
+      "district": "dibrugarh",
+      "district_name": "Dibrugarh",
+      "district_name_as": "ডিব্ৰুগড়",
+      "location_text": "Rohmoria, Dibrugarh District, Assam",
+      "state": "AS",
+      "trade": "flood",
+      "status": "open",
+      "value_inr": 12500000,
+      "emd_inr": 250000,
+      "fee_inr": 5000,
+      "published_at": "2026-10-11T16:00:00+05:30",
+      "query_until": "2026-10-21T17:00:00+05:30",
+      "bid_close_at": "2026-10-29T15:00:00+05:30",
+      "opening_at": "2026-10-30T15:30:00+05:30",
+      "source_portal": "Assam Tenders",
+      "source_name": "Assam Tenders",
+      "source_url": "https://assamtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTenderDetails&service=direct&sp=S2026_WRD_38002_1",
+      "source_ref": "2026_WRD_38002_1",
+      "has_corrigendum": true,
+      "summary_en": "Dumping of Type-B geo-textile mega bags (300 GSM), placing RCC porcupine screens for siltation, and boulder toe apron protection along 850m river bank.",
+      "summary_as": "ৰহমৰীয়াত ব্ৰহ্মপুত্ৰৰ খহনিয়া ৰোধৰ বাবে জিঅ’ বেগ আৰু পৰ্কুপাইন স্থাপন কাম।",
+      "summary_hi": "रोहमोरिया में ब्रह्मपुत्र नदी के किनारे जियो-बैग और पोर्क्युपाइन स्क्रीन से बाढ़ नियंत्रण कार्य।",
+      "conditions": [
+        {
+          "field": "registration_class",
+          "value": "class_1",
+          "unsure": false,
+          "quote": "Class I registered contractor with Water Resources Department, Assam."
+        },
+        {
+          "field": "min_years_experience",
+          "value": 5,
+          "unsure": false,
+          "quote": "Minimum 5 years continuous experience in river training and river bank embankment works."
+        },
+        {
+          "field": "min_turnover_inr",
+          "value": 8000000,
+          "unsure": false,
+          "quote": "Turnover in any one year of the last 3 financial years must not be less than Rs 80 Lakh."
+        },
+        {
+          "field": "similar_work",
+          "value": "River training works involving geo-textile bags or RCC porcupine screens in major rivers",
+          "unsure": false,
+          "quote": "Completed at least one similar anti-erosion contract worth Rs 60 Lakh in past 7 years."
+        }
+      ],
+      "versions": [
+        {
+          "version": 1,
+          "kind": "original",
+          "seen_at": "2026-10-11T16:00:00+05:30",
+          "summary": "Notice published"
+        },
+        {
+          "version": 2,
+          "kind": "corrigendum",
+          "seen_at": "2026-10-16T12:00:00+05:30",
+          "summary": "Extension of submission date by 4 days due to public holidays."
+        }
+      ],
+      "verdict": {
+        "verdict": "likely_not",
+        "reasons": [
+          { "status": "fail", "text": "Requires Class I Water Resources registration; you hold Class II PWD Roads." },
+          { "status": "warn", "text": "Requires specialized geo-textile mega bag river placement experience." },
+          { "status": "info", "text": "Joint venture is permitted with an eligible Class I lead partner.", "quote": "JV allowed with Class I lead partner" }
+        ],
+        "disclaimer": "This is a guide, not a decision. The official tender document governs."
+      }
+    },
+    {
+      "id": "tb-tender-006",
+      "slug": "construction-additional-classrooms-beltola-high-school",
+      "title": "Construction of 4-room two-storey additional classroom building for Beltola High School",
+      "tender_ref": "SSA/ENGG/KM/2026/BLT-08",
+      "department": "Samagra Shiksha Abhiyan (SSA) / Education Dept",
+      "organisation": "Axom Sarba Siksha Abhiyan Mission",
+      "district": "kamrup-metropolitan",
+      "district_name": "Kamrup Metropolitan",
+      "district_name_as": "কামৰূপ মহানগৰ",
+      "location_text": "Beltola, Guwahati, Kamrup Metro",
+      "state": "AS",
+      "trade": "building",
+      "status": "open",
+      "value_inr": 5400000,
+      "emd_inr": 108000,
+      "fee_inr": 1500,
+      "published_at": "2026-10-14T12:00:00+05:30",
+      "query_until": "2026-10-24T15:00:00+05:30",
+      "bid_close_at": "2026-11-02T14:00:00+05:30",
+      "opening_at": "2026-11-03T11:00:00+05:30",
+      "source_portal": "Assam Tenders",
+      "source_name": "Assam Tenders",
+      "source_url": "https://assamtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTenderDetails&service=direct&sp=S2026_SSA_44120_1",
+      "source_ref": "2026_SSA_44120_1",
+      "has_corrigendum": false,
+      "summary_en": "RCC framed structure (G+1), brick masonry in cement mortar, vitrified tile flooring, aluminium windows, internal electrification and sanitation fittings.",
+      "summary_as": "বেলতলা হাইস্কুলত ২ মহলীয়া ৪টা শ্ৰেণীকোঠা নিৰ্মাণ, পকী মজিয়া আৰু বিজুলী সংযোগ কাম।",
+      "summary_hi": "बेलतला हाई स्कूल में 2 मंजिला 4 कमरों वाले नए भवन का निर्माण एवं विद्युतीकरण।",
+      "conditions": [
+        {
+          "field": "registration_class",
+          "value": "class_2",
+          "unsure": false,
+          "quote": "Registered under Class II or above with PWD Building Assam."
+        },
+        {
+          "field": "min_turnover_inr",
+          "value": 3000000,
+          "unsure": false,
+          "quote": "Annual turnover must be at least Rs 30,00,000 in any of the preceding 3 financial years."
+        },
+        {
+          "field": "min_years_experience",
+          "value": 3,
+          "unsure": false,
+          "quote": "3 years experience in multi-storey institutional or government building works."
+        }
+      ],
+      "versions": [
+        {
+          "version": 1,
+          "kind": "original",
+          "seen_at": "2026-10-14T12:00:00+05:30",
+          "summary": "Notice published"
+        }
+      ],
+      "verdict": {
+        "verdict": "likely",
+        "reasons": [
+          { "status": "pass", "text": "Meets Class II building registration requirement." },
+          { "status": "pass", "text": "Satisfies financial turnover criteria." },
+          { "status": "pass", "text": "Proven institutional building construction record." }
+        ],
+        "disclaimer": "This is a guide, not a decision. The official tender document governs."
+      }
+    },
+    {
+      "id": "tb-tender-007",
+      "slug": "solar-street-lights-installation-tezpur-smart-city",
+      "title": "Supply, installation, testing and commissioning of 120 standalone LED solar street lighting systems along Tezpur bypass",
+      "tender_ref": "TSCL/TECH/SOLAR-09/2026",
+      "department": "Power Department / Tezpur Smart City Ltd",
+      "organisation": "Tezpur Smart City Development Limited",
+      "district": "sonitpur",
+      "district_name": "Sonitpur",
+      "district_name_as": "শোণিতপুৰ",
+      "location_text": "Tezpur Bypass Road, Sonitpur District",
+      "state": "AS",
+      "trade": "electrical",
+      "status": "open",
+      "value_inr": 2980000,
+      "emd_inr": 59600,
+      "fee_inr": 1000,
+      "published_at": "2026-10-16T15:00:00+05:30",
+      "query_until": "2026-10-23T17:00:00+05:30",
+      "bid_close_at": "2026-11-05T15:00:00+05:30",
+      "opening_at": "2026-11-06T15:30:00+05:30",
+      "source_portal": "CPPP",
+      "source_name": "CPPP",
+      "source_url": "https://eprocure.gov.in/eprocure/app?page=FrontEndTenderDetails&service=direct&sp=2026_TSCL_10928_1",
+      "source_ref": "2026_TSCL_10928_1",
+      "has_corrigendum": false,
+      "summary_en": "120 octagonal galvanized poles (6m), 40W integrated LED luminaires with MPPT solar charge controllers, LiFePO4 battery banks and 5 years comprehensive AMC.",
+      "summary_as": "তেজপুৰ বাইপাছত ১২০টা সৌৰ শক্তিচালিত পথৰ লাইট আৰু ৫ বছৰীয়া ৰক্ষণাবেক্ষণ।",
+      "summary_hi": "तेजपुर बाईपास पर 120 सोलर स्ट्रीट लाइट की आपूर्ति, स्थापना और 5 साल का रखरखाव।",
+      "conditions": [
+        {
+          "field": "registration_class",
+          "value": "class_2",
+          "unsure": false,
+          "quote": "Must possess valid electrical contractor license issued by Electrical Licensing Board of Assam (ELB)."
+        },
+        {
+          "field": "min_turnover_inr",
+          "value": 1500000,
+          "unsure": false,
+          "quote": "Average turnover of Rs 15 Lakh in last 3 years."
+        },
+        {
+          "field": "msme_exemption",
+          "value": true,
+          "unsure": false,
+          "quote": "MSME / Startup exemption available on EMD subject to submission of valid certificate."
+        }
+      ],
+      "versions": [
+        {
+          "version": 1,
+          "kind": "original",
+          "seen_at": "2026-10-16T15:00:00+05:30",
+          "summary": "Notice published on Central Public Procurement Portal"
+        }
+      ],
+      "verdict": {
+        "verdict": "check",
+        "reasons": [
+          { "status": "pass", "text": "MSME exemption applicable for EMD." },
+          { "status": "warn", "text": "Ensure your supervisor holds valid ELB Assam HT/LT wireman certificate.", "quote": "Electrical Licensing Board of Assam license required" }
+        ],
+        "disclaimer": "This is a guide, not a decision. The official tender document governs."
+      }
+    },
+    {
+      "id": "tb-tender-008",
+      "slug": "reconstruction-timber-bridge-rcc-culvert-dergaon",
+      "title": "Reconstruction of damaged wooden bridge with 6m span single vent RCC culvert on Missamora-Dergaon Road",
+      "tender_ref": "PR&RD/GLT/DRG/2026/19",
+      "department": "Panchayat and Rural Development (P&RD)",
+      "organisation": "Golaghat Zilla Parishad",
+      "district": "golaghat",
+      "district_name": "Golaghat",
+      "district_name_as": "গোলাঘাট",
+      "location_text": "Missamora to Dergaon, Golaghat District",
+      "state": "AS",
+      "trade": "bridge",
+      "status": "open",
+      "value_inr": 2150000,
+      "emd_inr": 43000,
+      "fee_inr": 1000,
+      "published_at": "2026-10-17T10:00:00+05:30",
+      "query_until": "2026-10-25T16:00:00+05:30",
+      "bid_close_at": "2026-11-03T15:00:00+05:30",
+      "opening_at": "2026-11-04T12:00:00+05:30",
+      "source_portal": "Assam Tenders",
+      "source_name": "Assam Tenders",
+      "source_url": "https://assamtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTenderDetails&service=direct&sp=S2026_PRRD_49102_1",
+      "source_ref": "2026_PRRD_49102_1",
+      "has_corrigendum": false,
+      "summary_en": "Dismantling of broken timber bridge, excavation for foundation, M25 grade RCC raft slab and return walls with guard stones.",
+      "summary_as": "দেৰগাঁৱৰ মিছামৰা পথত ভাঙি যোৱা কাঠৰ দলঙৰ ঠাইত ৬ মিটাৰ দৈৰ্ঘ্যৰ পকী কালভাৰ্ট নিৰ্মাণ।",
+      "summary_hi": "डेरगांव के मिस्सामोरा रोड पर टूटे लकड़ी के पुल की जगह 6 मीटर आरसीसी कल्वर्ट का निर्माण।",
+      "conditions": [
+        {
+          "field": "registration_class",
+          "value": "class_3",
+          "unsure": false,
+          "quote": "Contractors registered under Class III or above with PWD Assam or Zilla Parishad."
+        },
+        {
+          "field": "min_turnover_inr",
+          "value": 1200000,
+          "unsure": false,
+          "quote": "Turnover of minimum Rs 12 Lakh in any two years of last four years."
+        }
+      ],
+      "versions": [
+        {
+          "version": 1,
+          "kind": "original",
+          "seen_at": "2026-10-17T10:00:00+05:30",
+          "summary": "Notice published"
+        }
+      ],
+      "verdict": {
+        "verdict": "likely",
+        "reasons": [
+          { "status": "pass", "text": "Class III registration requirement met." },
+          { "status": "pass", "text": "Value within your standard bonding capacity." }
+        ],
+        "disclaimer": "This is a guide, not a decision. The official tender document governs."
+      }
+    },
+    {
+      "id": "tb-tender-009",
+      "slug": "railway-station-platform-shed-repairs-lumding-ireps",
+      "title": "Repair and painting of passenger platform shelter sheds, FOB steps, and drainage line at Lumding Junction",
+      "tender_ref": "NFR/LMG/ENGG/2026/W-18",
+      "department": "Northeast Frontier Railway (NFR)",
+      "organisation": "Indian Railways / IREPS",
+      "district": "hojai",
+      "district_name": "Hojai",
+      "district_name_as": "হোজাই",
+      "location_text": "Lumding Railway Station, Hojai District",
+      "state": "AS",
+      "trade": "building",
+      "status": "open",
+      "value_inr": 6180000,
+      "emd_inr": 123600,
+      "fee_inr": 0,
+      "published_at": "2026-10-13T10:30:00+05:30",
+      "query_until": "2026-10-23T17:00:00+05:30",
+      "bid_close_at": "2026-10-30T15:00:00+05:30",
+      "opening_at": "2026-10-30T15:30:00+05:30",
+      "source_portal": "IREPS",
+      "source_name": "IREPS",
+      "source_url": "https://www.ireps.gov.in/eps/works/tenderDetails.do?tenderId=908129",
+      "source_ref": "IREPS-NFR-LMG-908129",
+      "has_corrigendum": true,
+      "summary_en": "Corrosion treatment and epoxy painting of structural steel roof trusses, replacement of 1400 sq.m damaged GI sheets, and concrete drain relining.",
+      "summary_as": "লামডিং জংচনৰ প্লেটফৰ্ম শ্বেড মেৰামতি আৰু ৰং কৰা কাম।",
+      "summary_hi": "लम्डिंग जंक्शन के प्लेटफॉर्म शेड और ओवरब्रिज की मरम्मत एवं रंगाई का कार्य।",
+      "conditions": [
+        {
+          "field": "min_years_experience",
+          "value": 5,
+          "unsure": false,
+          "quote": "Bidder must have completed similar railway civil or structural steel shed work in running station environment."
+        },
+        {
+          "field": "min_turnover_inr",
+          "value": 3500000,
+          "unsure": false,
+          "quote": "Financial capacity: 150% of tender value in last 3 financial years combined."
+        },
+        {
+          "field": "msme_exemption",
+          "value": false,
+          "unsure": false,
+          "quote": "No exemption for works tender under Indian Railways standard conditions of contract."
+        }
+      ],
+      "versions": [
+        {
+          "version": 1,
+          "kind": "original",
+          "seen_at": "2026-10-13T10:30:00+05:30",
+          "summary": "Notice published on IREPS portal"
+        },
+        {
+          "version": 2,
+          "kind": "corrigendum",
+          "seen_at": "2026-10-18T14:00:00+05:30",
+          "summary": "Safety protocol clause added for work adjacent to running rail tracks."
+        }
+      ],
+      "verdict": {
+        "verdict": "check",
+        "reasons": [
+          { "status": "pass", "text": "Turnover satisfies financial eligibility criteria." },
+          { "status": "warn", "text": "Check your past structural steel shed completion certificates for railway trackside clearance approval.", "quote": "Completed similar work in running station environment" }
+        ],
+        "disclaimer": "This is a guide, not a decision. The official tender document governs."
+      }
+    },
+    {
+      "id": "tb-tender-010",
+      "slug": "supply-medical-consumables-silchar-medical-college",
+      "title": "Annual rate contract for supply of essential hospital surgical consumables and disposable syringes to SMCH",
+      "tender_ref": "SMCH/PUR/2026-27/MED-11",
+      "department": "Health and Family Welfare",
+      "organisation": "Silchar Medical College and Hospital",
+      "district": "cachar",
+      "district_name": "Cachar",
+      "district_name_as": "কাছাৰ",
+      "location_text": "Ghungoor, Silchar, Cachar District",
+      "state": "AS",
+      "trade": "supply",
+      "status": "open",
+      "value_inr": 4500000,
+      "emd_inr": 90000,
+      "fee_inr": 2000,
+      "published_at": "2026-10-16T11:00:00+05:30",
+      "query_until": "2026-10-27T17:00:00+05:30",
+      "bid_close_at": "2026-11-10T14:00:00+05:30",
+      "opening_at": "2026-11-11T11:00:00+05:30",
+      "source_portal": "Assam Tenders",
+      "source_name": "Assam Tenders",
+      "source_url": "https://assamtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTenderDetails&service=direct&sp=S2026_HLTH_39201_1",
+      "source_ref": "2026_HLTH_39201_1",
+      "has_corrigendum": false,
+      "summary_en": "Rate contract for 12 months for supply of disposable surgical gloves, IV sets, catheters, and disposable syringes to central medical store.",
+      "summary_as": "শিলচৰ চিকিৎসা মহাবিদ্যালয়লৈ ১২ মাহৰ বাবে অস্ত্ৰোপচাৰৰ সামগ্ৰী যোগানৰ ঠিকা।",
+      "summary_hi": "सिलचर मेडिकल कॉलेज के लिए सर्जिकल उपभोग्य सामग्रियों की 12 महीने की आपूर्ति दर अनुबंध।",
+      "conditions": [
+        {
+          "field": "min_years_experience",
+          "value": 3,
+          "unsure": false,
+          "quote": "Must hold valid wholesale drug license and continuous distribution experience of 3 years."
+        },
+        {
+          "field": "min_turnover_inr",
+          "value": 2500000,
+          "unsure": false,
+          "quote": "Turnover not less than Rs 25 Lakh in each of the last 3 financial years."
+        },
+        {
+          "field": "msme_exemption",
+          "value": true,
+          "unsure": false,
+          "quote": "MSEs registered under manufacturing category entitled to EMD waiver."
+        }
+      ],
+      "versions": [
+        {
+          "version": 1,
+          "kind": "original",
+          "seen_at": "2026-10-16T11:00:00+05:30",
+          "summary": "Notice published"
+        }
+      ],
+      "verdict": {
+        "verdict": "likely",
+        "reasons": [
+          { "status": "pass", "text": "Drug license and distribution experience are in order." },
+          { "status": "pass", "text": "MSME certificate provides EMD exemption." }
+        ],
+        "disclaimer": "This is a guide, not a decision. The official tender document governs."
+      }
+    },
+    {
+      "id": "tb-tender-011",
+      "slug": "internal-electrification-polytechnic-hostel-kokrajhar",
+      "title": "Internal electrification, wiring, earthing and distribution board installation at newly built Boys Hostel, BB Polytechnic",
+      "tender_ref": "PWD/ELEC/KOK/2026/05",
+      "department": "Public Works (Building & Electrical)",
+      "organisation": "Bodoland Territorial Council (BTC)",
+      "district": "kokrajhar",
+      "district_name": "Kokrajhar",
+      "district_name_as": "কোকৰাঝাৰ",
+      "location_text": "Kokrajhar Town, BTC, Assam",
+      "state": "AS",
+      "trade": "electrical",
+      "status": "open",
+      "value_inr": 1640000,
+      "emd_inr": 32800,
+      "fee_inr": 500,
+      "published_at": "2026-10-18T10:00:00+05:30",
+      "query_until": "2026-10-25T17:00:00+05:30",
+      "bid_close_at": "2026-11-04T14:00:00+05:30",
+      "opening_at": "2026-11-05T14:30:00+05:30",
+      "source_portal": "Assam Tenders",
+      "source_name": "Assam Tenders",
+      "source_url": "https://assamtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTenderDetails&service=direct&sp=S2026_BTC_38120_1",
+      "source_ref": "2026_BTC_38120_1",
+      "has_corrigendum": false,
+      "summary_en": "Concealed conduit wiring with FRLS copper cables, LED tube lights, ceiling fans, 8-way MCB distribution boards and chemical pipe earthing system.",
+      "summary_as": "কোকৰাঝাৰ পলিটেকনিক হোষ্টেলত বিজুলীৰ তাঁৰ, ফেন আৰু লাইট লগোৱা কাম।",
+      "summary_hi": "कोकराझार पॉलिटेक्निक छात्रावास में आंतरिक वायरिंग और प्रकाश व्यवस्था का कार्य।",
+      "conditions": [
+        {
+          "field": "registration_class",
+          "value": "class_2",
+          "unsure": false,
+          "quote": "Registered under Class II or above with PWD Electrical or BTC Engineering."
+        },
+        {
+          "field": "min_turnover_inr",
+          "value": 1000000,
+          "unsure": false,
+          "quote": "Average turnover of Rs 10 Lakh."
+        }
+      ],
+      "versions": [
+        {
+          "version": 1,
+          "kind": "original",
+          "seen_at": "2026-10-18T10:00:00+05:30",
+          "summary": "Notice published"
+        }
+      ],
+      "verdict": {
+        "verdict": "likely",
+        "reasons": [
+          { "status": "pass", "text": "Satisfies Class II electrical contractor criteria." }
+        ],
+        "disclaimer": "This is a guide, not a decision. The official tender document governs."
+      }
+    },
+    {
+      "id": "tb-tender-012",
+      "slug": "repair-flood-embankment-subansiri-lakhimpur",
+      "title": "Urgent restoration and boulder pitching on breached embankment of Subansiri river at Ghunasuti reach",
+      "tender_ref": "WRD/LKP/EMB-REST/2026/09",
+      "department": "Water Resources Department",
+      "organisation": "North Lakhimpur Water Resources Division",
+      "district": "lakhimpur",
+      "district_name": "Lakhimpur",
+      "district_name_as": "লক্ষীমপুৰ",
+      "location_text": "Ghunasuti, Lakhimpur District, Assam",
+      "state": "AS",
+      "trade": "flood",
+      "status": "open",
+      "value_inr": 7200000,
+      "emd_inr": 144000,
+      "fee_inr": 2000,
+      "published_at": "2026-10-17T12:00:00+05:30",
+      "query_until": "2026-10-26T17:00:00+05:30",
+      "bid_close_at": "2026-11-07T15:00:00+05:30",
+      "opening_at": "2026-11-08T11:00:00+05:30",
+      "source_portal": "Assam Tenders",
+      "source_name": "Assam Tenders",
+      "source_url": "https://assamtenders.gov.in/nicgep/app?component=%24DirectLink&page=FrontEndTenderDetails&service=direct&sp=S2026_WRD_43190_1",
+      "source_ref": "2026_WRD_43190_1",
+      "has_corrigendum": false,
+      "summary_en": "Earthwork in filling embankment breaches, compaction, laying geo-textile filter sheets and dry boulder pitching with wire netting crates.",
+      "summary_as": "লক্ষীমপুৰৰ ঘূনাসুতিত সোৱণশিৰি নদীৰ মথাউৰি মেৰামতি আৰু শিলৰ পিচিং কাম।",
+      "summary_hi": "लखीमपुर के घुनासुती में सुबनसिरी नदी के तटबंध की मरम्मत और पत्थर पिचिंग का कार्य।",
+      "conditions": [
+        {
+          "field": "registration_class",
+          "value": "class_1",
+          "unsure": false,
+          "quote": "Class I (Water Resources) registered contractors with Government of Assam."
+        },
+        {
+          "field": "min_turnover_inr",
+          "value": 4500000,
+          "unsure": false,
+          "quote": "Average turnover >= Rs 45 Lakhs."
+        }
+      ],
+      "versions": [
+        {
+          "version": 1,
+          "kind": "original",
+          "seen_at": "2026-10-17T12:00:00+05:30",
+          "summary": "Notice published"
+        }
+      ],
+      "verdict": {
+        "verdict": "check",
+        "reasons": [
+          { "status": "pass", "text": "Turnover meets requirement." },
+          { "status": "warn", "text": "Requires boulder crate fabrication and hydraulic compaction equipment.", "quote": "Compaction and wire netting crates certification required" }
+        ],
+        "disclaimer": "This is a guide, not a decision. The official tender document governs."
+      }
+    }
+  ]
+}

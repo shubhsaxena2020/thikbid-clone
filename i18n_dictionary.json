@@ -1,0 +1,2285 @@
+{
+  "meta": {
+    "title": "ThikBid Landing Page i18n Dictionary",
+    "primary_locale": "en",
+    "secondary_locale": "as",
+    "locales": {
+      "en": "English",
+      "as": "অসমীয়া (Assamese)"
+    },
+    "storage_key": "tb-lang",
+    "numeral_converter": {
+      "function": "s => String(s).replace(/\\d/g, e => '০১২৩৪৫৬৭৮৯'[e])",
+      "digit_map": {
+        "0": "০",
+        "1": "১",
+        "2": "২",
+        "3": "৩",
+        "4": "৪",
+        "5": "৫",
+        "6": "৬",
+        "7": "৭",
+        "8": "৮",
+        "9": "৯"
+      }
+    },
+    "total_dom_keys": 204,
+    "total_html_elements": 207
+  },
+  "dom_dictionary": {
+    "b1_h": {
+      "en": "Only your kind of work",
+      "as": "কেৱল আপোনাৰ কামৰ টেণ্ডাৰ",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "b1_p": {
+      "en": "Road, building, bridge, water, electrical or supply. Pick one or many. Everything else is filtered out before it reaches you.",
+      "as": "পথ, ভৱন, দলং, পানী, বৈদ্যুতিক বা যোগান। এটা বা কেইবাটাও বাছক। বাকী সকলো আপোনাৰ ওচৰলৈ অহাৰ আগতেই বাদ পৰে।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "b2_h": {
+      "en": "Every morning at 7",
+      "as": "প্ৰতিদিনে ৰাতিপুৱা ৭ বজাত",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "b2_p": {
+      "en": "New tenders arrive before your day starts. One short message a day, not fifty pings.",
+      "as": "আপোনাৰ দিন আৰম্ভ হোৱাৰ আগতেই নতুন টেণ্ডাৰ আহি পায়।",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "b2_pl": {
+      "en": "New tenders arrive before your day starts. One short message a day, not fifty pings.",
+      "as": "আপোনাৰ দিন আৰম্ভ হোৱাৰ আগতেই নতুন টেণ্ডাৰ আহি পায়।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": false
+    },
+    "b3_h": {
+      "en": "Never miss a last date",
+      "as": "শেষ তাৰিখ আৰু নাপাহৰে",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "b3_p": {
+      "en": "Tap “Remind me”. We message you 3 days and 1 day before it closes, and again if the date is changed.",
+      "as": "“সোঁৱৰাই দিয়ক” টিপক। বন্ধ হোৱাৰ আগতে আমি আপোনাক বাৰ্তা দিম।",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "b3_pl": {
+      "en": "Tap “Remind me”. We message you 3 days and 1 day before it closes, and again if the date is changed.",
+      "as": "“সোঁৱৰাই দিয়ক” টিপক। বন্ধ হোৱাৰ আগতে আমি আপোনাক বাৰ্তা দিম।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": false
+    },
+    "b4_h": {
+      "en": "Speaks your language",
+      "as": "আপোনাৰ ভাষাত কথা কয়",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "b4_p": {
+      "en": "English and Assamese at launch. Hindi, Bengali and more Indian languages next.",
+      "as": "আৰম্ভণিতে ইংৰাজী আৰু অসমীয়া। তাৰ পিছত হিন্দী, বাংলা আৰু আন ভাৰতীয় ভাষা।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "b5_f": {
+      "en": "tenders read today",
+      "as": "টা টেণ্ডাৰ আজি পঢ়া হ'ল",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "b5_f2": {
+      "en": null,
+      "as": "টা নতুন, এটা বাৰ্তাত",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "b5_h": {
+      "en": "Every source, one place",
+      "as": "সকলো উৎস, এক ঠাইত",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "b5_p": {
+      "en": "State portal, GeM, CPPP, railways and PSUs. We read the websites so you don't have to.",
+      "as": "ৱেবছাইটবোৰ আমি পঢ়োঁ, আপুনি পঢ়িব নালাগে।",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "b5_pl": {
+      "en": "State portal, GeM, CPPP, railways and PSUs. We read the websites so you don't have to.",
+      "as": "ৱেবছাইটবোৰ আমি পঢ়োঁ, আপুনি পঢ়িব নালাগে।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": false
+    },
+    "b6_h": {
+      "en": "Send it to your partner or munshi.",
+      "as": "আপোনাৰ অংশীদাৰ বা মুন্সীলৈ পঠিয়াওক।",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "b6_l": {
+      "en": null,
+      "as": "এটা টিপতে শ্বেয়াৰ",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "b6_p": {
+      "en": "Forward any tender straight from WhatsApp to the person who prepares your papers. No screenshots, no retyping.",
+      "as": "যিকোনো টেণ্ডাৰ পোনপটীয়াকৈ WhatsAppৰ পৰা কাগজ-পত্ৰ যুগুত কৰা মানুহজনলৈ ফৰৱাৰ্ড কৰক। স্ক্ৰীনশ্বট বা পুনৰ টাইপ কৰিব নালাগে।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c1_h": {
+      "en": "5 to 7 places to check. Every day.",
+      "as": "প্ৰতিদিনে ৫ৰ পৰা ৭টা ঠাই চাব লাগে।",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c1_n": {
+      "en": "tabs open",
+      "as": "টা টেব খোলা",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c1_p": {
+      "en": "State portals, GeM, central sites, railways, newspapers. Each one with its own login and layout.",
+      "as": "ৰাজ্যিক প'ৰ্টেল, GeM, কেন্দ্ৰীয় ছাইট, ৰেলৱে, বাতৰি কাকত। প্ৰতিটোৰে নিজা লগইন আৰু বেলেগ ধৰণ।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c1_t": {
+      "en": "Problem · too many websites",
+      "as": "সমস্যা · বহুত ৱেবছাইট",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c2_h": {
+      "en": "The clock starts before you know.",
+      "as": "আপুনি জনাৰ আগতেই ঘড়ী চলিবলৈ ধৰে।",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c2_m": {
+      "en": "You hear about it",
+      "as": "আপুনি জানিলে",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c2_p": {
+      "en": "Many tenders give only 10 to 21 days to bid. Hear about it a week late and half your time is gone.",
+      "as": "বহু টেণ্ডাৰত বিড কৰিবলৈ মাত্ৰ ১০ৰ পৰা ২১ দিন থাকে। এসপ্তাহ পলমকৈ জানিলে আধা সময় শেষ।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c2_s": {
+      "en": "days left to bid",
+      "as": "দিন বাকী",
+      "tag": "small",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c2_t": {
+      "en": "Problem · too little time",
+      "as": "সমস্যা · অতি কম সময়",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c3_h": {
+      "en": "Captcha codes and 40-page PDFs.",
+      "as": "কেপচা ক'ড আৰু ৪০ পৃষ্ঠাৰ PDF।",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c3_p": {
+      "en": "Long English documents just to find the work, the place and the last date. Or pay someone at a cyber café to do it.",
+      "as": "কাম, ঠাই আৰু শেষ তাৰিখ বিচাৰিবলৈ দীঘল ইংৰাজী নথি। নহ'লে চাইবাৰ কেফেত কাৰোবাক টকা দিব লাগে।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c3_t": {
+      "en": "Problem · too much paper",
+      "as": "সমস্যা · বহুত কাগজ",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c4_b": {
+      "en": "Try it free",
+      "as": "বিনামূলীয়াকৈ চাওক",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c4_h": {
+      "en": "One message. 7 AM. Only your work.",
+      "as": "এটা বাৰ্তা। ৰাতিপুৱা ৭ বজা। কেৱল আপোনাৰ কাম।",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c4_p": {
+      "en": "What it is, where, how much, and the last date. With a reminder before it closes.",
+      "as": "কি কাম, ক'ত, কিমান আৰু শেষ তাৰিখ। বন্ধ হোৱাৰ আগতে সোঁৱৰণীও।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "c4_t": {
+      "en": "The ThikBid way",
+      "as": "ThikBid-ৰ পদ্ধতি",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "cta_hi": {
+      "en": "Say “Hi” on WhatsApp",
+      "as": "WhatsAppত “Hi” পঠিয়াওক",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "cta_hi2": {
+      "en": "It's free to start",
+      "as": "আৰম্ভ কৰাটো বিনামূলীয়া",
+      "tag": "span",
+      "occurrences_in_html": 3,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "cta_how": {
+      "en": "See how it works",
+      "as": "কেনেকৈ কাম কৰে চাওক",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "cta_how2": {
+      "en": "3 easy steps",
+      "as": "৩টা সহজ খোজ",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "ex_h": {
+      "en": "Search less. <em>Build more.</em>",
+      "as": "কম বিচাৰক। <em>বেছি নিৰ্মাণ কৰক।</em>",
+      "tag": "h2",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "ex_p": {
+      "en": "Your time belongs on the site, not on tender websites.",
+      "as": "আপোনাৰ সময় ছাইটৰ বাবে, টেণ্ডাৰ ৱেবছাইটৰ বাবে নহয়।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "faq_h": {
+      "en": "Simple <em class=\"s\">answers.</em>",
+      "as": "সহজ <em class=\"s\">উত্তৰ।</em>",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "faq_label": {
+      "en": "Questions",
+      "as": "প্ৰশ্ন",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "faq_p": {
+      "en": "Tap a question. ThikBid answers the same way it would on WhatsApp.",
+      "as": "এটা প্ৰশ্ন টিপক। ThikBid-এ WhatsAppত যিদৰে উত্তৰ দিয়ে, সেইদৰেই দিব।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fc1": {
+      "en": "7:00 AM alert",
+      "as": "ৰাতিপুৱা ৭ বজাত বাৰ্তা",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fc1_s": {
+      "en": "Every day",
+      "as": "প্ৰতিদিনে",
+      "tag": "small",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fc2": {
+      "en": "Your district",
+      "as": "আপোনাৰ জিলা",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fc2_s": {
+      "en": "Only",
+      "as": "কেৱল",
+      "tag": "small",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fc3": {
+      "en": "Reminder",
+      "as": "সোঁৱৰণী",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fc3_s": {
+      "en": "Before last date",
+      "as": "শেষ তাৰিখৰ আগতে",
+      "tag": "small",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fc_legal": {
+      "en": "Legal",
+      "as": "আইনী",
+      "tag": "b",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fc_plans": {
+      "en": "Plans",
+      "as": "প্লেন",
+      "tag": "b",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fc_prod": {
+      "en": "Product",
+      "as": "সামগ্ৰী",
+      "tag": "b",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fc_tend": {
+      "en": "Tenders",
+      "as": "টেণ্ডাৰ",
+      "tag": "b",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fi_h": {
+      "en": "Instant alerts for top matches",
+      "as": "শ্ৰেষ্ঠ মিলৰ বাবে তৎক্ষণাত সতৰ্কবাৰ্তা",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fi_p": {
+      "en": "Your best matches arrive the moment they are checked, not the next morning. Never between 9 PM and 7 AM.",
+      "as": "আপোনাৰ শ্ৰেষ্ঠ মিলবোৰ পৰীক্ষা হোৱাৰ লগে লগে আহে, পিছদিনা ৰাতিপুৱালৈ ৰখা নহয়। ৰাতি ৯টাৰ পৰা ৰাতিপুৱা ৭টালৈ নহয়।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fi_t": {
+      "en": "Pro and Firm",
+      "as": "Pro আৰু Firm",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fin_alt": {
+      "en": "Or browse today's open tenders",
+      "as": "বা আজিৰ খোলা টেণ্ডাৰবোৰ চাওক",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fin_b": {
+      "en": "Say “Hi” to ThikBid",
+      "as": "ThikBid-লৈ “Hi” পঠিয়াওক",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fin_h": {
+      "en": "Your next work is <em>already</em> posted.",
+      "as": "আপোনাৰ পৰৱৰ্তী কাম <em>ইতিমধ্যে</em> ওলাইছে।",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fin_p": {
+      "en": "Let ThikBid find it and send it to you tomorrow morning.",
+      "as": "ThikBid-এ বিচাৰি কাইলৈ ৰাতিপুৱা আপোনাক পঠিয়াই দিব।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fk_h": {
+      "en": "You stay in control",
+      "as": "নিয়ন্ত্ৰণ আপোনাৰ হাতত",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fk_p": {
+      "en": "Reply with one word, any time.",
+      "as": "যিকোনো সময়ত এটা শব্দ লিখক।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fl_consent": {
+      "en": "WhatsApp consent",
+      "as": "WhatsApp সন্মতি",
+      "tag": "a",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fl_priv": {
+      "en": "Privacy",
+      "as": "গোপনীয়তা",
+      "tag": "a",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fl_terms": {
+      "en": "Terms",
+      "as": "চৰ্তাৱলী",
+      "tag": "a",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fm_a": {
+      "en": "Open My ThikBid",
+      "as": "মোৰ ThikBid খোলক",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fm_h": {
+      "en": "My ThikBid: saved tenders, profile, billing",
+      "as": "মোৰ ThikBid: সংৰক্ষিত টেণ্ডাৰ, প্ৰ'ফাইল, বিল",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fm_p": {
+      "en": "Your shortlist, reminders and plan in one place. No password: send PROFILE on WhatsApp and we reply with a one-time login link.",
+      "as": "আপোনাৰ তালিকা, সোঁৱৰণী আৰু প্লেন এক ঠাইতে। পাছৱৰ্ড নালাগে: WhatsAppত PROFILE পঠিয়াওক, আমি এবাৰ চলা লগইন লিংক দিম।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fq_a": {
+      "en": "Open a tender page",
+      "as": "এটা টেণ্ডাৰ পৃষ্ঠা খোলক",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fq_h": {
+      "en": "“Do I qualify?” on every tender",
+      "as": "প্ৰতিটো টেণ্ডাৰত “মই যোগ্য নে?”",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fq_p": {
+      "en": "Tell us your contractor class, turnover band and years of experience once. We check each tender's conditions and quote the line from the notice, so you know before you open a 40-page PDF.",
+      "as": "আপোনাৰ ঠিকাদাৰ শ্ৰেণী, টাৰ্নঅভাৰ আৰু অভিজ্ঞতা এবাৰ কওক। আমি প্ৰতিটো টেণ্ডাৰৰ চৰ্ত মিলাই জাননীৰ শাৰীটো দেখুৱাওঁ, ৪০ পৃষ্ঠাৰ PDF খোলাৰ আগতেই আপুনি জানিব।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fq_t": {
+      "en": "Starter and above",
+      "as": "Starter আৰু ওপৰৰ প্লেনত",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fresh_all": {
+      "en": "All open tenders",
+      "as": "সকলো খোলা টেণ্ডাৰ",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fresh_h": {
+      "en": "Fresh this week",
+      "as": "এই সপ্তাহৰ নতুন টেণ্ডাৰ",
+      "tag": "h2",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "ft_m": {
+      "en": "Made in Assam",
+      "as": "অসমত নিৰ্মিত",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "ft_p": {
+      "en": "ThikBid is not a government service. We read public tender notices and send them to you. Always check the final details on the official website before you bid.",
+      "as": "ThikBid চৰকাৰী সেৱা নহয়। আমি ৰাজহুৱা টেণ্ডাৰ জাননী পঢ়ি আপোনাক পঠিয়াওঁ। বিড কৰাৰ আগতে চৰকাৰী ৱেবছাইটত চূড়ান্ত তথ্য নিশ্চয় চাব।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fx_ch": {
+      "en": "Told when a tender changes",
+      "as": "টেণ্ডাৰ সলনি হ'লে জনাওঁ",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fx_cp": {
+      "en": "Dates move and amounts change. We track every corrigendum and message you what changed, in one line.",
+      "as": "তাৰিখ আগুৱায়, টকা সলনি হয়। আমি প্ৰতিটো ছংশোধনী (corrigendum) চাওঁ আৰু কি সলনি হ'ল এক শাৰীত জনাওঁ।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fx_ct": {
+      "en": "Pro and Firm",
+      "as": "Pro আৰু Firm",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fx_h": {
+      "en": "Every tender, <em class=\"s\">already read for you.</em>",
+      "as": "প্ৰতিটো টেণ্ডাৰ, <em class=\"s\">আপোনাৰ হৈ আগতেই পঢ়া।</em>",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fx_label": {
+      "en": "Inside every alert",
+      "as": "প্ৰতিটো সতৰ্কবাৰ্তাৰ ভিতৰত",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fx_p": {
+      "en": "Each alert carries what decides a bid: whether you qualify, what changed, and when it closes. It all works inside WhatsApp, and every tender has its own page too.",
+      "as": "প্ৰতিটো সতৰ্কবাৰ্তাত বিড কৰিব নে নাই সিদ্ধান্ত ল'বলৈ লগা কথাখিনি থাকে: আপুনি যোগ্য নে, কি সলনি হ'ল, আৰু শেষ তাৰিখ কেতিয়া। সকলো WhatsAppৰ ভিতৰতে চলে, আৰু প্ৰতিটো টেণ্ডাৰৰ নিজা পৃষ্ঠাও আছে।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "fxm_a": {
+      "en": "ThikBid reads the full notice, checks it against your profile, and sends you only the lines that matter.",
+      "as": "ThikBid-এ গোটেই জাননীখন পঢ়ে, আপোনাৰ প্ৰ'ফাইলৰ সৈতে মিলায়, আৰু কেৱল দৰকাৰী শাৰীকেইটাহে পঠিয়ায়।",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "get_h": {
+      "en": "Made for the person <em class=\"s\">on site</em>, not at a desk.",
+      "as": "ছাইটত কাম কৰা মানুহৰ বাবে, <em class=\"s\">অফিচৰ টেবুলৰ</em> বাবে নহয়।",
+      "tag": "h2",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "get_label": {
+      "en": "What you get",
+      "as": "আপুনি কি পাব",
+      "tag": "span",
+      "occurrences_in_html": 2,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "h1a": {
+      "en": "Every new tender,",
+      "as": "প্ৰতিটো নতুন টেণ্ডাৰ,",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "h1b": {
+      "en": "to your",
+      "as": "আপোনাৰ",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "h1c": {
+      "en": "WhatsApp.",
+      "as": "WhatsAppলৈ।",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "hero_lede": {
+      "en": "ThikBid checks government tender websites every day and sends you only the work that fits your area and your trade.",
+      "as": "ThikBid-এ প্ৰতিদিনে চৰকাৰী টেণ্ডাৰৰ ৱেবছাইটবোৰ চায় আৰু আপোনাৰ এলেকা আৰু কামৰ লগত মিলা টেণ্ডাৰহে পঠিয়ায়।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "how_cta": {
+      "en": "Start step 1 now",
+      "as": "এতিয়াই খোজ ১ আৰম্ভ কৰক",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "how_h": {
+      "en": "Three steps. <em class=\"s\">Then just wait.</em>",
+      "as": "তিনিটা খোজ। <em class=\"s\">তাৰ পিছত অপেক্ষা।</em>",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "how_label": {
+      "en": "How it works",
+      "as": "কেনেকৈ কাম কৰে",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "how_note": {
+      "en": "Free to start · No card needed",
+      "as": "আৰম্ভ কৰাটো বিনামূলীয়া · কাৰ্ড নালাগে",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "how_sub": {
+      "en": "All of it happens inside WhatsApp. Set it up once in about a minute, and the right tenders come to you every day.",
+      "as": "সকলো কাম WhatsApp-ৰ ভিতৰতে। এবাৰ প্ৰায় এক মিনিটত ছেট কৰক, তাৰ পিছত সঠিক টেণ্ডাৰ প্ৰতিদিনে আপোনাৰ ওচৰলৈ আহিব।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "k_change": {
+      "en": "edit district or work",
+      "as": "জিলা বা কাম সলনি",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "k_lang": {
+      "en": "switch language",
+      "as": "ভাষা সলনি",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "k_pause": {
+      "en": "take a break",
+      "as": "কিছু দিন জিৰণি",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "k_plan": {
+      "en": "upgrade or renew",
+      "as": "প্লেন লওক বা নবীকৰণ",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "k_saved": {
+      "en": "see your shortlist",
+      "as": "সংৰক্ষিত তালিকা",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "k_stop": {
+      "en": "stop all messages",
+      "as": "সকলো বাৰ্তা বন্ধ",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "map_assam": {
+      "en": "Assam",
+      "as": "অসম",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "map_india": {
+      "en": "India",
+      "as": "ভাৰত",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "map_live": {
+      "en": null,
+      "as": "চলি আছে",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "map_soon": {
+      "en": null,
+      "as": "সোনকালে",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "nav_cta": {
+      "en": "Start free",
+      "as": "বিনামূলীয়া আৰম্ভ",
+      "tag": "span",
+      "occurrences_in_html": 2,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "nav_cta2": {
+      "en": null,
+      "as": "১ মিনিটত সাজু",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "nav_faq": {
+      "en": "FAQ",
+      "as": "প্ৰশ্ন",
+      "tag": "a",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "nav_feat": {
+      "en": "Features",
+      "as": "সুবিধা",
+      "tag": "a",
+      "occurrences_in_html": 3,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "nav_firm": {
+      "en": "For firms",
+      "as": "ফাৰ্মৰ বাবে",
+      "tag": "a",
+      "occurrences_in_html": 3,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "nav_firm_s": {
+      "en": null,
+      "as": "৫টা WhatsApp আসন",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "nav_how": {
+      "en": "How it works",
+      "as": "কেনেকৈ কাম কৰে",
+      "tag": "a",
+      "occurrences_in_html": 3,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "nav_login": {
+      "en": "Log in",
+      "as": "লগ ইন",
+      "tag": "a",
+      "occurrences_in_html": 3,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "nav_me": {
+      "en": "My ThikBid",
+      "as": "মোৰ ThikBid",
+      "tag": "a",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "nav_me_s": {
+      "en": "Log in with a link on WhatsApp",
+      "as": "WhatsApp-ত অহা লিংকেৰে লগ ইন",
+      "tag": "small",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "nav_partners": {
+      "en": "Partner programme",
+      "as": "অংশীদাৰ কাৰ্যসূচী",
+      "tag": "a",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "nav_partners_s": {
+      "en": null,
+      "as": "১২ মাহলৈ ২০% উপাৰ্জন",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "nav_plans": {
+      "en": "Plans &amp; pricing",
+      "as": "প্লেন আৰু মূল্য",
+      "tag": "a",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "nav_plans_s": {
+      "en": null,
+      "as": "সকলো প্লেন তুলনা কৰক",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "nav_price": {
+      "en": "Pricing",
+      "as": "মূল্য",
+      "tag": "a",
+      "occurrences_in_html": 2,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "nav_signup": {
+      "en": "Get started",
+      "as": "আৰম্ভ কৰক",
+      "tag": "span",
+      "occurrences_in_html": 2,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "nav_signup_s": {
+      "en": "Set up your alerts in 1 minute",
+      "as": "১ মিনিটত আপোনাৰ খবৰ সাজু কৰক",
+      "tag": "small",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "nav_tenders": {
+      "en": "Tenders",
+      "as": "টেণ্ডাৰ",
+      "tag": "a",
+      "occurrences_in_html": 3,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "nav_try": {
+      "en": "Try it",
+      "as": "চাই লওক",
+      "tag": "a",
+      "occurrences_in_html": 3,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "nav_who": {
+      "en": null,
+      "as": "দলৰ বাবে",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "nav_why": {
+      "en": null,
+      "as": "কিয় ThikBid",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "p_compare": {
+      "en": "Compare all plans",
+      "as": "সকলো প্লেন তুলনা কৰক",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "p_cta": {
+      "en": "Start on WhatsApp",
+      "as": "WhatsAppত আৰম্ভ কৰক",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "p_cta2": {
+      "en": "Takes 1 minute",
+      "as": "১ মিনিট লাগে",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "p_later": {
+      "en": null,
+      "as": "পিছত",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "p_mo": {
+      "en": "mo",
+      "as": "মাহ",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "p_note": {
+      "en": "Then ₹999 a month, or stay on Free. Prices include GST.",
+      "as": "তাৰ পিছত মাহে ₹৯৯৯, নহ'লে Free-তে থাকক। মূল্যত GST অন্তৰ্ভুক্ত।",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "p_per": {
+      "en": "for 14 days",
+      "as": "১৪ দিনলৈ",
+      "tag": "small",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "p_pill": {
+      "en": "Starter · new users",
+      "as": "Starter · নতুন ব্যৱহাৰকাৰী",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "pl1_h": {
+      "en": null,
+      "as": "এতিয়া · ₹০",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "pl1_p": {
+      "en": null,
+      "as": "অসমত আৰম্ভ কৰাৰ সময়ত সকলোৰে বাবে বিনামূলীয়া।",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "pl2_h": {
+      "en": null,
+      "as": "পিছত · মাহে ₹১৯৯",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "pl2_p": {
+      "en": null,
+      "as": "পইচা লোৱা আৰম্ভ হ'লে আমি আগতে WhatsAppত জনাম।",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "pl3_h": {
+      "en": null,
+      "as": "আগতীয়া ব্যৱহাৰকাৰী · আৰু ৬ মাহ বিনামূলীয়া",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "pl3_p": {
+      "en": null,
+      "as": "এতিয়াই যোগদান কৰিলে তাৰ পিছতো ৬ মাহ বিনামূলীয়াকৈ ব্যৱহাৰ কৰিব পাৰিব।",
+      "tag": null,
+      "occurrences_in_html": 0,
+      "in_html": false,
+      "in_qu_dict": true
+    },
+    "pr2_label": {
+      "en": "Pricing",
+      "as": "মূল্য",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "pr_h": {
+      "en": "The old way <em class=\"s\">wastes</em> your day.",
+      "as": "পুৰণি পদ্ধতিয়ে আপোনাৰ দিনটো <em class=\"s\">নষ্ট</em> কৰে।",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "pr_label": {
+      "en": "Why good contractors miss work",
+      "as": "ভাল ঠিকাদাৰেও কিয় কাম হেৰুৱায়",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "price_h": {
+      "en": "Start free. <em class=\"s\">Pay when it pays.</em>",
+      "as": "বিনামূলীয়াকৈ আৰম্ভ। <em class=\"s\">লাভ হ'লেহে পইচা।</em>",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "price_p": {
+      "en": "Free forever for one district and one type of work. New users get 14 days of Starter free. No card, no form. Type <b style=\"font-family:var(--f-mono);color:var(--maroon)\">STOP</b> any time.",
+      "as": "এখন জিলা আৰু এবিধ কামৰ বাবে সদায় বিনামূলীয়া। নতুন ব্যৱহাৰকাৰীয়ে ১৪ দিন Starter বিনামূলীয়াকৈ পায়। কাৰ্ড, ফৰ্ম নালাগে। যিকোনো সময়ত <b style=\"font-family:var(--f-mono);color:var(--maroon)\">STOP</b> লিখক।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "s1_a": {
+      "en": "Works on any phone with WhatsApp",
+      "as": "WhatsApp থকা যিকোনো ফোনত চলে",
+      "tag": "li",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "s1_b": {
+      "en": "English or অসমীয়া, your choice",
+      "as": "English বা অসমীয়া, আপোনাৰ ইচ্ছা",
+      "tag": "li",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "s1_h": {
+      "en": "Say “Hi” to ThikBid",
+      "as": "ThikBid-লৈ “Hi” পঠিয়াওক",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "s1_p": {
+      "en": "Open WhatsApp and send “Hi”. No new app, no website, no password.",
+      "as": "WhatsApp খুলি “Hi” লিখক। নতুন এপ, ৱেবছাইট বা পাছৱৰ্ড নালাগে।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "s1_t": {
+      "en": "10 seconds",
+      "as": "১০ ছেকেণ্ড",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "s2_a": {
+      "en": "Just tap buttons, no typing",
+      "as": "কেৱল বুটাম টিপক, টাইপ কৰিব নালাগে",
+      "tag": "li",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "s2_b": {
+      "en": "Change it any time: just send “CHANGE”",
+      "as": "যিকোনো সময়ত সলনি কৰক: “CHANGE” পঠিয়াওক",
+      "tag": "li",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "s2_h": {
+      "en": "Choose your area and work",
+      "as": "আপোনাৰ এলেকা আৰু কাম বাছক",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "s2_p": {
+      "en": "Tap your district and the work you do, like road, building or supply. It takes one minute.",
+      "as": "আপোনাৰ জিলা আৰু কামৰ প্ৰকাৰ টিপক, যেনে পথ, ভৱন বা যোগান। এক মিনিট লাগে।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "s2_t": {
+      "en": "1 minute",
+      "as": "১ মিনিট",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "s3_a": {
+      "en": "Only tenders that match your work",
+      "as": "কেৱল আপোনাৰ কামৰ লগত মিলা টেণ্ডাৰ",
+      "tag": "li",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "s3_b": {
+      "en": "A reminder before the last date",
+      "as": "শেষ তাৰিখৰ আগতে সোঁৱৰণী",
+      "tag": "li",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "s3_h": {
+      "en": "Get tenders every morning",
+      "as": "প্ৰতিদিনে ৰাতিপুৱা টেণ্ডাৰ পাওক",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "s3_p": {
+      "en": "At 7 AM you get the new tenders that match you. Tap “Remind me” and we message you again before the last date.",
+      "as": "ৰাতিপুৱা ৭ বজাত আপোনাৰ লগত মিলা নতুন টেণ্ডাৰ আহিব। “সোঁৱৰাই দিয়ক” টিপিলে শেষ তাৰিখৰ আগতে আকৌ বাৰ্তা দিম।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "s3_t": {
+      "en": "Every day, 7 AM",
+      "as": "প্ৰতিদিনে, ৰাতিপুৱা ৭ বজাত",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "st1": {
+      "en": "open tenders on Assam's tender website on one day (17 Oct 2026), from 49 different offices.",
+      "as": "খন খোলা টেণ্ডাৰ অসমৰ টেণ্ডাৰ ৱেবছাইটত এদিনত (১৭ অক্টোবৰ ২০২৬), ৪৯টা বেলেগ কাৰ্যালয়ৰ পৰা।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "st1a": {
+      "en": "Every open tender",
+      "as": "সকলো খোলা টেণ্ডাৰ",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "st1b": {
+      "en": "The few that fit you",
+      "as": "আপোনাৰ লগত মিলা কেইখনমান",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "st2": {
+      "en": "small businesses (MSMEs) registered in Assam. Many of them can bid.",
+      "as": "টা সৰু উদ্যোগ (MSME) অসমত পঞ্জীয়নভুক্ত। ইহঁতৰ বহুতেই বিড কৰিব পাৰে।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "st3": {
+      "en": "is all the time you get to bid on most Assam water-works tenders.",
+      "as": "অসমৰ বেছিভাগ জলসম্পদ টেণ্ডাৰত বিড কৰিবলৈ ইমানখিনি সময়হে পায়।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "st4": {
+      "en": "of goods and services the government bought on GeM in one year (FY25).",
+      "as": "মূল্যৰ সামগ্ৰী আৰু সেৱা চৰকাৰে এবছৰত GeM-ত কিনিছিল (FY25)।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "st_h": {
+      "en": "Big money. <em class=\"s\">Small</em> windows.",
+      "as": "ডাঙৰ ধন। <em class=\"s\">সৰু</em> সময়।",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "st_label": {
+      "en": "Why this matters",
+      "as": "কিয় গুৰুত্বপূৰ্ণ",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "try_h": {
+      "en": "See your own <em class=\"s\">morning message.</em>",
+      "as": "আপোনাৰ নিজৰ <em class=\"s\">ৰাতিপুৱাৰ বাৰ্তা</em> চাওক।",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "try_label": {
+      "en": "Try it here",
+      "as": "ইয়াতে চাওক",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "try_lang": {
+      "en": "Language",
+      "as": "ভাষা",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "try_note": {
+      "en": "Tap any district or work type to make it yours. This is an example message; real ones use live tenders, with names exactly as the office wrote them.",
+      "as": "নিজৰ কৰিবলৈ যিকোনো জিলা বা কামৰ প্ৰকাৰ টিপক। এইটো উদাহৰণ বাৰ্তা; সঁচা বাৰ্তাত চলিত টেণ্ডাৰ থাকে, কাৰ্যালয়ে লিখাৰ দৰেই।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "try_work": {
+      "en": "Work",
+      "as": "কাম",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "w1_a": {
+      "en": "Start free on WhatsApp",
+      "as": "WhatsAppত বিনামূলীয়াকৈ আৰম্ভ",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "w1_h": {
+      "en": "Contractors &amp; suppliers",
+      "as": "ঠিকাদাৰ আৰু যোগানধাৰী",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "w1_p": {
+      "en": "Owner-run firms who bid in a few districts. Your tenders every morning, reminders, and “do I qualify?”.",
+      "as": "কেইখনমান জিলাত বিড কৰা নিজে চলোৱা ফাৰ্ম। প্ৰতি ৰাতিপুৱা আপোনাৰ টেণ্ডাৰ, সোঁৱৰণী আৰু “মই যোগ্য নে?”।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "w1_s": {
+      "en": "free forever for one district",
+      "as": "এখন জিলাৰ বাবে সদায় বিনামূলীয়া",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "w1_t": {
+      "en": "Free plan",
+      "as": "বিনামূলীয়া প্লেন",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "w2_a": {
+      "en": "See ThikBid for firms",
+      "as": "ফাৰ্মৰ বাবে ThikBid চাওক",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "w2_h": {
+      "en": "Firms &amp; bid teams",
+      "as": "ফাৰ্ম আৰু বিড দল",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "w2_p": {
+      "en": "5 WhatsApp seats for your engineers and accountant, every district in your states, and award-price history to price bids better.",
+      "as": "আপোনাৰ ইঞ্জিনিয়াৰ আৰু একাউণ্টেণ্টৰ বাবে ৫টা WhatsApp ছিট, আপোনাৰ ৰাজ্যৰ সকলো জিলা, আৰু ভাল দৰ দিবলৈ আগৰ বিজয়ী দৰৰ ইতিহাস।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "w2_s": {
+      "en": "WhatsApp seats on one plan",
+      "as": "এটা প্লেনতে ৫টা WhatsApp ছিট",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "w2_t": {
+      "en": "Firm plan",
+      "as": "Firm প্লেন",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "w3_a": {
+      "en": "Become a partner",
+      "as": "অংশীদাৰ হওক",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "w3_h": {
+      "en": "Accountants &amp; associations",
+      "as": "একাউণ্টেণ্ট আৰু সংস্থা",
+      "tag": "h3",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "w3_p": {
+      "en": "Already help contractors with tenders? Share your link and earn 20% of every payment for 12 months.",
+      "as": "ইতিমধ্যে ঠিকাদাৰক টেণ্ডাৰত সহায় কৰে নে? আপোনাৰ লিংক শ্বেয়াৰ কৰক আৰু ১২ মাহলৈ প্ৰতিটো পেমেণ্টৰ ২০% উপাৰ্জন কৰক।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "w3_s": {
+      "en": "of every payment, for 12 months",
+      "as": "১২ মাহলৈ প্ৰতিটো পেমেণ্টৰ",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "w3_t": {
+      "en": "Partner programme",
+      "as": "অংশীদাৰ কাৰ্যসূচী",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "wh_cue": {
+      "en": "Scroll to turn the wheel",
+      "as": null,
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": false
+    },
+    "wh_skip": {
+      "en": "Skip ahead",
+      "as": null,
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": false
+    },
+    "who_h": {
+      "en": "One contractor or a <em class=\"s\">whole team.</em>",
+      "as": "এজন ঠিকাদাৰ বা <em class=\"s\">গোটেই দল।</em>",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "who_label": {
+      "en": "Who it's for",
+      "as": "কাৰ বাবে",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "who_p": {
+      "en": "Pick the way you work. Every path starts on WhatsApp, with no app to install.",
+      "as": "আপুনি যেনেকৈ কাম কৰে তেনেকৈ বাছক। প্ৰতিটো বাট WhatsAppতে আৰম্ভ হয়, কোনো এপ নালাগে।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "why_h": {
+      "en": "We read the portals. <em class=\"s\">You read <u class=\"wx-o\">one</u> message.</em>",
+      "as": "প'ৰ্টেলবোৰ আমি পঢ়োঁ। <em class=\"s\">আপুনি পঢ়িব <u class=\"wx-o\">এটা</u> বাৰ্তা।</em>",
+      "tag": "h2",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "why_l1": {
+      "en": "Only your district. Only your trade.",
+      "as": "কেৱল আপোনাৰ জিলা। কেৱল আপোনাৰ কাম।",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "why_l2": {
+      "en": "In English or Assamese.",
+      "as": "ইংৰাজী বা অসমীয়াত।",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "why_l3": {
+      "en": "On WhatsApp, 7 AM, every day.",
+      "as": "WhatsApp-ত, ৰাতিপুৱা ৭ বজাত, প্ৰতিদিনে।",
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "why_p": {
+      "en": "<b class=\"wx-ref\" data-s=\"0\">Assam Tenders</b>, <b class=\"wx-ref\" data-s=\"1\">GeM</b>, <b class=\"wx-ref\" data-s=\"5\">CPPP</b>, <b class=\"wx-ref\" data-s=\"2\">IREPS</b>, the <b class=\"wx-ref\" data-s=\"4\">PWD notice board</b>, the <b class=\"wx-ref\" data-s=\"3\">morning paper</b>. Each one has its own login, its own captcha and its own 40-page PDF. We go through all of it before you wake up and send the few lines that are actually about your work.",
+      "as": "<b class=\"wx-ref\" data-s=\"0\">Assam Tenders</b>, <b class=\"wx-ref\" data-s=\"1\">GeM</b>, <b class=\"wx-ref\" data-s=\"5\">CPPP</b>, <b class=\"wx-ref\" data-s=\"2\">IREPS</b>, <b class=\"wx-ref\" data-s=\"4\">PWD-ৰ জাননী ফলক</b>, <b class=\"wx-ref\" data-s=\"3\">ৰাতিপুৱাৰ বাতৰি কাকত</b>। প্ৰতিটোৰে নিজা লগইন, নিজা কেপচা, নিজা ৪০ পৃষ্ঠাৰ PDF। আপুনি সাৰ পোৱাৰ আগতেই আমি সকলোবোৰ চাওঁ আৰু আপোনাৰ কামৰ লগত জড়িত কেইশাৰীমানহে পঠিয়াওঁ।",
+      "tag": "p",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": true
+    },
+    "wt1": {
+      "en": "to switch your district or trade any time.",
+      "as": null,
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": false
+    },
+    "wt2": {
+      "en": "to stop alerts while you are busy on site.",
+      "as": null,
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": false
+    },
+    "wt3": {
+      "en": "is a button under every tender.",
+      "as": null,
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": false
+    },
+    "wt4": {
+      "en": "to switch. The tender details stay exactly as published.",
+      "as": null,
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": false
+    },
+    "wt5": {
+      "en": "opens the original notice on the official site.",
+      "as": null,
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": false
+    },
+    "wt6": {
+      "en": "like any WhatsApp message. The link to the notice goes with it.",
+      "as": null,
+      "tag": "span",
+      "occurrences_in_html": 1,
+      "in_html": true,
+      "in_qu_dict": false
+    },
+    "wt_l": {
+      "en": "On WhatsApp",
+      "as": null,
+      "tag": "span",
+      "occurrences_in_html": 6,
+      "in_html": true,
+      "in_qu_dict": false
+    }
+  },
+  "interactive_components": {
+    "whatsapp_commands": {
+      "description": "Interactive command simulator in #fx-chat replying to keyword buttons",
+      "en": {
+        "STOP": "Done. You won't get any more messages from ThikBid. Send <b>Hi</b> any time to start again.",
+        "PAUSE": "Paused. How long?<br><span class='opt'>1 week</span><span class='opt'>2 weeks</span><span class='opt'>1 month</span>",
+        "CHANGE": "What do you want to change?<br><span class='opt'>District</span><span class='opt'>Work</span><span class='opt'>Language</span>",
+        "SAVED": "You have <b>2 saved</b> tenders:<br>1. Drain along Bora Road · 3 days left<br>2. Kopili embankment, Pipora · 9 days left",
+        "LANGUAGE": "Choose your language:<br><span class='opt'>English</span><span class='opt'>অসমীয়া</span>",
+        "PLAN": "You're on <b>Starter</b> (₹999/mo). Get instant alerts and corrigendum tracking with <b>Pro</b>.<br><span class='opt'>Upgrade</span><span class='opt'>Renew</span>"
+      },
+      "as": {
+        "STOP": "হ'ল। ThikBidৰ পৰা আৰু কোনো বাৰ্তা নাহিব। আকৌ আৰম্ভ কৰিবলৈ যিকোনো সময়ত <b>Hi</b> পঠিয়াওক।",
+        "PAUSE": "বিৰতি দিয়া হ'ল। কিমান দিন?<br><span class='opt'>১ সপ্তাহ</span><span class='opt'>২ সপ্তাহ</span><span class='opt'>১ মাহ</span>",
+        "CHANGE": "কি সলনি কৰিব বিচাৰে?<br><span class='opt'>জিলা</span><span class='opt'>কাম</span><span class='opt'>ভাষা</span>",
+        "SAVED": "আপোনাৰ <b>২টা</b> সংৰক্ষিত টেণ্ডাৰ:<br>১. বৰা ৰোডৰ নলা · ৩ দিন বাকী<br>২. কপিলী মথাউৰি, পিপৰা · ৯ দিন বাকী",
+        "LANGUAGE": "ভাষা বাছক:<br><span class='opt'>English</span><span class='opt'>অসমীয়া</span>",
+        "PLAN": "আপুনি <b>Starter</b> প্লেনত আছে (₹৯৯৯/মাহ)। তৎক্ষণাত সতৰ্কবাৰ্তাৰ বাবে <b>Pro</b> লওক।<br><span class='opt'>Upgrade</span><span class='opt'>Renew</span>"
+      }
+    },
+    "faq_accordion": {
+      "description": "8 FAQ questions and conversational WhatsApp answers in #qs and #faq-chat",
+      "items": [
+        {
+          "q": "How much does it cost?",
+          "a": "Free forever for one district and one type of work, sent weekly. New users get 14 days of Starter free: daily 7 AM list, reminders and “do I qualify?”. After that Starter is ₹999 a month, or you stay on Free. No card needed to start. All plans: thikbid.in/pricing",
+          "qa": "ইয়াৰ খৰচ কিমান?",
+          "aa": "এখন জিলা আৰু এবিধ কামৰ বাবে সদায় বিনামূলীয়া, সপ্তাহত এবাৰ। নতুন ব্যৱহাৰকাৰীয়ে ১৪ দিন Starter বিনামূলীয়াকৈ পায়: প্ৰতিদিনে ৭ বজাৰ তালিকা, সোঁৱৰণী আৰু “মই যোগ্য নে?”। তাৰ পিছত Starter মাহে ₹৯৯৯, নহ'লে Free-তে থাকিব পাৰে। আৰম্ভ কৰিবলৈ কাৰ্ড নালাগে।"
+        },
+        {
+          "q": "How do I know if I qualify?",
+          "a": "Tell me your contractor class, turnover band and years of experience once. On every tender I check the conditions and reply Yes, No or Check, with the line from the notice. It's a guide: the official document always decides.",
+          "qa": "মই যোগ্য নে কেনেকৈ জানিম?",
+          "aa": "আপোনাৰ ঠিকাদাৰ শ্ৰেণী, টাৰ্নঅভাৰ আৰু অভিজ্ঞতাৰ বছৰ এবাৰ কওক। প্ৰতিটো টেণ্ডাৰত মই চৰ্ত মিলাই হয়, নহয় বা চাওক বুলি জনাম, জাননীৰ শাৰীটোৰ সৈতে। এইটো সহায় মাত্ৰ: চৰকাৰী নথিয়েই চূড়ান্ত।"
+        },
+        {
+          "q": "Can my whole team get the alerts?",
+          "a": "Yes. The Firm plan gives 5 WhatsApp seats, every district in your states and award-price history. See thikbid.in/firm",
+          "qa": "মোৰ গোটেই দলে সতৰ্কবাৰ্তা পাব নে?",
+          "aa": "পাব। Firm প্লেনত ৫টা WhatsApp ছিট, আপোনাৰ ৰাজ্যৰ সকলো জিলা আৰু বিজয়ী দৰৰ ইতিহাস থাকে।"
+        },
+        {
+          "q": "Which tenders do you send?",
+          "a": "Government tenders, starting with Assam: from Assam's tender website, GeM and central sites. Road, building, bridge, supply, electrical and more.",
+          "qa": "কোনবোৰ টেণ্ডাৰ পঠিয়ায়?",
+          "aa": "চৰকাৰী টেণ্ডাৰ, অসমৰ পৰা আৰম্ভ কৰি: অসমৰ টেণ্ডাৰ ৱেবছাইট, GeM আৰু কেন্দ্ৰীয় ছাইটৰ পৰা। পথ, ভৱন, দলং, যোগান, বৈদ্যুতিক আৰু আন বহুতো।"
+        },
+        {
+          "q": "Which language?",
+          "a": "Assamese or English. You choose. More Indian languages are coming.",
+          "qa": "কোন ভাষাত?",
+          "aa": "অসমীয়া বা ইংৰাজী। আপুনিয়েই বাছক। আন ভাৰতীয় ভাষাও আহি আছে।"
+        },
+        {
+          "q": "Is my phone number safe?",
+          "a": "Yes. We use it only to send you tenders. We never sell it. Type STOP any time to stop.",
+          "qa": "মোৰ ফোন নম্বৰ সুৰক্ষিত নে?",
+          "aa": "হয়। আমি ইয়াক কেৱল আপোনাক টেণ্ডাৰ পঠিয়াবলৈ ব্যৱহাৰ কৰোঁ। কেতিয়াও বিক্ৰী নকৰোঁ। যিকোনো সময়ত STOP লিখি বন্ধ কৰিব পাৰে।"
+        },
+        {
+          "q": "Do I need a smartphone?",
+          "a": "You need WhatsApp, that's all. If WhatsApp works on your phone, ThikBid works too.",
+          "qa": "স্মাৰ্টফোন লাগিবনে?",
+          "aa": "কেৱল WhatsApp লাগে। আপোনাৰ ফোনত WhatsApp চলিলে ThikBid-ও চলিব।"
+        },
+        {
+          "q": "Can you help me bid?",
+          "a": "Not yet. We find the tender and remind you of the date. You still bid on the government website with your own digital signature (DSC). We send you the direct link.",
+          "qa": "বিড কৰাত সহায় কৰিব পাৰিবনে?",
+          "aa": "এতিয়াও নহয়। আমি টেণ্ডাৰ বিচাৰি দিওঁ আৰু তাৰিখ সোঁৱৰাই দিওঁ। বিড আপুনি নিজৰ ডিজিটেল চিগনেচাৰ (DSC)ৰে চৰকাৰী ৱেবছাইটতে কৰিব লাগিব। আমি পোনপটীয়া লিংক পঠিয়াওঁ।"
+        }
+      ]
+    },
+    "trades_catalog": {
+      "description": "6 work categories in #trades and #work with dynamic notice templates",
+      "categories": {
+        "road": {
+          "en": "Road",
+          "as": "পথ",
+          "t": [
+            [
+              "Improvement of road from {a} to {b} (3.2 km)",
+              "PWD Roads"
+            ],
+            [
+              "Repair of town roads and drains, {a}",
+              "Municipal Board"
+            ]
+          ]
+        },
+        "building": {
+          "en": "Building",
+          "as": "ভৱন",
+          "t": [
+            [
+              "Construction of 2-room school building at {a}",
+              "Education Dept"
+            ],
+            [
+              "Boundary wall for health sub-centre, {b}",
+              "Health Dept"
+            ]
+          ]
+        },
+        "bridge": {
+          "en": "Bridge",
+          "as": "দলং",
+          "t": [
+            [
+              "RCC culvert on village road near {a}",
+              "PWD Roads"
+            ],
+            [
+              "Repair of timber bridge at {b}",
+              "Rural Development"
+            ]
+          ]
+        },
+        "water": {
+          "en": "Water",
+          "as": "পানী",
+          "t": [
+            [
+              "Piped water supply scheme, {a}",
+              "PHED (Jal Jeevan Mission)"
+            ],
+            [
+              "Deep tube well with pump house, {b}",
+              "PHED"
+            ]
+          ]
+        },
+        "electrical": {
+          "en": "Electrical",
+          "as": "বৈদ্যুতিক",
+          "t": [
+            [
+              "Street lights (40 poles) on {a} main road",
+              "Power Dept"
+            ],
+            [
+              "Internal wiring of block office, {b}",
+              "PWD Electrical"
+            ]
+          ]
+        },
+        "supply": {
+          "en": "Supply",
+          "as": "যোগান",
+          "t": [
+            [
+              "Supply of office furniture, DC Office {d}",
+              "GeM"
+            ],
+            [
+              "Supply of 200 LED lights to {b} block office",
+              "GeM"
+            ]
+          ]
+        }
+      }
+    },
+    "districts_catalog": {
+      "description": "33 Assam districts with GIS centroid, short names, and landmark placeholders",
+      "districts": [
+        {
+          "geo": "Kamrup Metropolitan",
+          "en": "Kamrup Metro",
+          "as": "কামৰূপ মহানগৰ",
+          "p": [
+            "Beltola",
+            "Khanapara"
+          ]
+        },
+        {
+          "geo": "Kamrup",
+          "en": "Kamrup",
+          "as": "কামৰূপ",
+          "p": [
+            "Rangia",
+            "Boko"
+          ]
+        },
+        {
+          "geo": "Barpeta",
+          "en": "Barpeta",
+          "as": "বৰপেটা",
+          "p": [
+            "Howly",
+            "Sarthebari"
+          ]
+        },
+        {
+          "geo": "Nalbari",
+          "en": "Nalbari",
+          "as": "নলবাৰী",
+          "p": [
+            "Tihu",
+            "Ghograpar"
+          ]
+        },
+        {
+          "geo": "Nagaon",
+          "en": "Nagaon",
+          "as": "নগাঁও",
+          "p": [
+            "Kampur",
+            "Raha"
+          ]
+        },
+        {
+          "geo": "Hojai",
+          "en": "Hojai",
+          "as": "হোজাই",
+          "p": [
+            "Lanka",
+            "Lumding"
+          ]
+        },
+        {
+          "geo": "Morigaon",
+          "en": "Morigaon",
+          "as": "মৰিগাঁও",
+          "p": [
+            "Jagiroad",
+            "Laharighat"
+          ]
+        },
+        {
+          "geo": "Sonitpur",
+          "en": "Sonitpur",
+          "as": "শোণিতপুৰ",
+          "p": [
+            "Dhekiajuli",
+            "Tezpur"
+          ]
+        },
+        {
+          "geo": "Biswanath",
+          "en": "Biswanath",
+          "as": "বিশ্বনাথ",
+          "p": [
+            "Gohpur",
+            "Biswanath Chariali"
+          ]
+        },
+        {
+          "geo": "Darrang",
+          "en": "Darrang",
+          "as": "দৰং",
+          "p": [
+            "Mangaldoi",
+            "Sipajhar"
+          ]
+        },
+        {
+          "geo": "Udalguri",
+          "en": "Udalguri",
+          "as": "ওদালগুৰি",
+          "p": [
+            "Tangla",
+            "Khoirabari"
+          ]
+        },
+        {
+          "geo": "Baksa",
+          "en": "Baksa",
+          "as": "বাক্সা",
+          "p": [
+            "Mushalpur",
+            "Tamulpur"
+          ]
+        },
+        {
+          "geo": "Chirang",
+          "en": "Chirang",
+          "as": "চিৰাং",
+          "p": [
+            "Bijni",
+            "Kajalgaon"
+          ]
+        },
+        {
+          "geo": "Kokrajhar",
+          "en": "Kokrajhar",
+          "as": "কোকৰাঝাৰ",
+          "p": [
+            "Gossaigaon",
+            "Kachugaon"
+          ]
+        },
+        {
+          "geo": "Bongaigaon",
+          "en": "Bongaigaon",
+          "as": "বঙাইগাঁও",
+          "p": [
+            "Abhayapuri",
+            "Boitamari"
+          ]
+        },
+        {
+          "geo": "Dhubri",
+          "en": "Dhubri",
+          "as": "ধুবুৰী",
+          "p": [
+            "Gauripur",
+            "Bilasipara"
+          ]
+        },
+        {
+          "geo": "South Salmara Mankachar",
+          "en": "South Salmara",
+          "as": "দক্ষিণ শালমাৰা",
+          "p": [
+            "Hatsingimari",
+            "Mankachar"
+          ]
+        },
+        {
+          "geo": "Goalpara",
+          "en": "Goalpara",
+          "as": "গোৱালপাৰা",
+          "p": [
+            "Dudhnoi",
+            "Krishnai"
+          ]
+        },
+        {
+          "geo": "Golaghat",
+          "en": "Golaghat",
+          "as": "গোলাঘাট",
+          "p": [
+            "Bokakhat",
+            "Dergaon"
+          ]
+        },
+        {
+          "geo": "Jorhat",
+          "en": "Jorhat",
+          "as": "যোৰহাট",
+          "p": [
+            "Titabar",
+            "Mariani"
+          ]
+        },
+        {
+          "geo": "Majuli",
+          "en": "Majuli",
+          "as": "মাজুলী",
+          "p": [
+            "Garamur",
+            "Kamalabari"
+          ]
+        },
+        {
+          "geo": "Sivasagar",
+          "en": "Sivasagar",
+          "as": "শিৱসাগৰ",
+          "p": [
+            "Nazira",
+            "Demow"
+          ]
+        },
+        {
+          "geo": "Charaideo",
+          "en": "Charaideo",
+          "as": "চৰাইদেউ",
+          "p": [
+            "Sonari",
+            "Sapekhati"
+          ]
+        },
+        {
+          "geo": "Lakhimpur",
+          "en": "Lakhimpur",
+          "as": "লখিমপুৰ",
+          "p": [
+            "Narayanpur",
+            "Bihpuria"
+          ]
+        },
+        {
+          "geo": "Dhemaji",
+          "en": "Dhemaji",
+          "as": "ধেমাজি",
+          "p": [
+            "Jonai",
+            "Silapathar"
+          ]
+        },
+        {
+          "geo": "Dibrugarh",
+          "en": "Dibrugarh",
+          "as": "ডিব্ৰুগড়",
+          "p": [
+            "Chabua",
+            "Naharkatia"
+          ]
+        },
+        {
+          "geo": "Tinsukia",
+          "en": "Tinsukia",
+          "as": "তিনিচুকীয়া",
+          "p": [
+            "Doom Dooma",
+            "Margherita"
+          ]
+        },
+        {
+          "geo": "Karbi Anglong",
+          "en": "Karbi Anglong",
+          "as": "কাৰ্বি আংলং",
+          "p": [
+            "Diphu",
+            "Bokajan"
+          ]
+        },
+        {
+          "geo": "West Karbi Anglong",
+          "en": "West Karbi Anglong",
+          "as": "পশ্চিম কাৰ্বি আংলং",
+          "p": [
+            "Hamren",
+            "Baithalangso"
+          ]
+        },
+        {
+          "geo": "Dima Hasao",
+          "en": "Dima Hasao",
+          "as": "ডিমা হাছাও",
+          "p": [
+            "Haflong",
+            "Maibang"
+          ]
+        },
+        {
+          "geo": "Cachar",
+          "en": "Cachar",
+          "as": "কাছাৰ",
+          "p": [
+            "Lakhipur",
+            "Silchar"
+          ]
+        },
+        {
+          "geo": "Karimganj",
+          "en": "Sribhumi",
+          "as": "শ্ৰীভূমি",
+          "p": [
+            "Badarpur",
+            "Patharkandi"
+          ]
+        },
+        {
+          "geo": "Hailakandi",
+          "en": "Hailakandi",
+          "as": "হাইলাকান্দি",
+          "p": [
+            "Lala",
+            "Katlicherra"
+          ]
+        }
+      ]
+    },
+    "whatsapp_simulator_templates": {
+      "description": "Try section live phone message generator templates (FS)",
+      "en": {
+        "greeting": "☀️ Good morning! <b>{count} new tenders</b> for <b>{trade}</b> work in <b>{district}</b> today.",
+        "buttons": [
+          "Remind me",
+          "Details"
+        ],
+        "last_date": "Last date: {date} · {days_left} days left",
+        "value": "₹{val} lakh",
+        "footer": "Example tender"
+      },
+      "as": {
+        "greeting": "☀️ শুভ ৰাতিপুৱা! আজি <b>{district}</b>ত <b>{trade}</b>ৰ বাবে <b>{count}টা নতুন টেণ্ডাৰ</b>।",
+        "buttons": [
+          "সোঁৱৰাই দিয়ক",
+          "বিৱৰণ"
+        ],
+        "last_date": "শেষ তাৰিখ: {date} · {days_left} দিন বাকী",
+        "value": "₹{val} লাখ",
+        "footer": "উদাহৰণ টেণ্ডাৰ"
+      }
+    },
+    "plans_and_pricing": {
+      "description": "Pricing card #pcard and plan line #plan-line dynamic features and blurbs",
+      "starter_features": {
+        "en": [
+          "New tenders every morning at 7 AM",
+          "Plain-language summaries",
+          "“Do I qualify?” on any tender",
+          "Reminders 3 days & 1 day before",
+          "Up to {trades} types of work · {districts} districts",
+          "Direct link to the official notice"
+        ],
+        "as": [
+          "প্ৰতিদিনে ৰাতিপুৱা ৭ বজাত নতুন টেণ্ডাৰ",
+          "সহজ ভাষাত সাৰাংশ",
+          "যিকোনো টেণ্ডাৰত “মই যোগ্য নে?”",
+          "শেষ তাৰিখৰ ৩ দিন আৰু ১ দিন আগতে সোঁৱৰণী",
+          "সৰ্বাধিক {trades} বিধ কাম · {districts}খন জিলা",
+          "চৰকাৰী জাননীৰ পোনপটীয়া লিংক"
+        ]
+      },
+      "plan_blurbs": {
+        "en": {
+          "free": "One district, one type of work, weekly list",
+          "starter": "For the owner-run contractor · 14 days free",
+          "pro": "Instant & corrigendum alerts, up to 12 districts",
+          "firm": "5 team seats, whole state, award-price analytics"
+        },
+        "as": {
+          "free": [
+            "সদায়",
+            "এখন জিলা, এবিধ কাম, সপ্তাহত এবাৰ"
+          ],
+          "starter": [
+            "মাহে",
+            "নিজে চলোৱা ঠিকাদাৰৰ বাবে; ১৪ দিন বিনামূলীয়া"
+          ],
+          "pro": [
+            "মাহে",
+            "বহু ঠাইত বিড কৰা ফাৰ্মৰ বাবে; তৎক্ষণাত আৰু ছংশোধনী সতৰ্কবাৰ্তা"
+          ],
+          "firm": [
+            "মাহে",
+            "৫টা ছিট, গোটেই ৰাজ্য, বিজয়ী দৰৰ বিশ্লেষণ"
+          ]
+        }
+      },
+      "price_labels": {
+        "en": {
+          "per_month": " / month",
+          "free_forever": "₹0 · forever"
+        },
+        "as": {
+          "per_month": " / মাহ",
+          "free_forever": "₹০ · সদায়"
+        }
+      }
+    },
+    "atlas_map_ui": {
+      "description": "Interactive SVG map labels, level status messages, and state hover tooltips",
+      "status_messages": {
+        "india_level": {
+          "en": "<b>Live in Assam.</b> Other states are on the way. Tap Assam to see its districts.",
+          "as": "<b>অসমত চলি আছে।</b> আন ৰাজ্যবোৰ সোনকালে আহিব। জিলা চাবলৈ অসম টিপক।"
+        },
+        "assam_level": {
+          "en": "<b>Choose your district.</b> Tap anywhere on the map and the phone shows that district's message.",
+          "as": "<b>আপোনাৰ জিলা বাছক।</b> মেপত টিপক, ফোনত সেই জিলাৰ বাৰ্তা আহিব।"
+        }
+      },
+      "state_status_badges": {
+        "live": {
+          "en": "Live now",
+          "as": "চলি আছে"
+        },
+        "coming_soon": {
+          "en": "Coming soon",
+          "as": "সোনকালে"
+        }
+      }
+    },
+    "hero_rotator_words": [
+      {
+        "word": "straight",
+        "lang": "English",
+        "css_class": ""
+      },
+      {
+        "word": "सीधे",
+        "lang": "हिंदी",
+        "css_class": "indic"
+      },
+      {
+        "word": "পোনপটীয়াকৈ",
+        "lang": "অসমীয়া",
+        "css_class": "indic"
+      },
+      {
+        "word": "সরাসরি",
+        "lang": "বাংলা",
+        "css_class": "indic"
+      },
+      {
+        "word": "સીધું",
+        "lang": "ગુજરાતી",
+        "css_class": "indic"
+      },
+      {
+        "word": "நேரடியாக",
+        "lang": "தமிழ்",
+        "css_class": "indic"
+      }
+    ],
+    "system_and_accessibility": {
+      "h1_aria_label": {
+        "en": "Every new tender, straight to your WhatsApp.",
+        "as": "প্ৰতিটো নতুন টেণ্ডাৰ, পোনপটীয়াকৈ আপোনাৰ WhatsAppলৈ।"
+      },
+      "typing_indicator": {
+        "en": "typing…",
+        "as": "টাইপ কৰি আছে…"
+      },
+      "lang_toggle_button": {
+        "id": "lang-toggle",
+        "aria_label": "Switch language between English and Assamese",
+        "en_state": {
+          "aria_pressed": "false",
+          "visible_badge": "অসমীয়া"
+        },
+        "as_state": {
+          "aria_pressed": "true",
+          "visible_badge": "English"
+        }
+      }
+    }
+  }
+}
