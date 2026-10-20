@@ -6,17 +6,23 @@
 const http = require('http');
 const { server, ROUTE_MAP } = require('./server');
 
-const TEST_PORT = 3001;
+// Ephemeral port by default so the suite never collides with an already
+// running dev server (which previously made results ambiguous).
+const TEST_PORT = parseInt(process.env.TEST_PORT || '0', 10);
+
+// Populated once the server is bound, so requests hit the ephemeral port
+// actually assigned by the OS.
+let activePort = TEST_PORT;
 
 function fetchUrl(path, options = {}) {
-  return new Promise((resolve, reject) => {
-    const req = http.request({
-      hostname: 'localhost',
-      port: TEST_PORT,
-      path: path,
-      method: options.method || 'GET',
-      headers: options.headers || {}
-    }, (res) => {
+    return new Promise((resolve, reject) => {
+        const req = http.request({
+            hostname: 'localhost',
+            port: activePort,
+            path: path,
+            method: options.method || 'GET',
+            headers: options.headers || {}
+        }, (res) => {
       let data = '';
       res.on('data', chunk => data += chunk);
       res.on('end', () => {
@@ -37,8 +43,11 @@ function fetchUrl(path, options = {}) {
 }
 
 async function runTests() {
-  console.log('Starting ThikBid Integration QA Test Runner on port', TEST_PORT);
-  await new Promise(resolve => server.listen(TEST_PORT, 'localhost', resolve));
+    await new Promise(resolve => server.listen(TEST_PORT, 'localhost', resolve));
+    // Resolve the actual bound port (0 => OS-assigned ephemeral port).
+    const boundPort = server.address().port;
+    activePort = boundPort;
+    console.log('Starting ThikBid Integration QA Test Runner on port', boundPort);
 
   const results = [];
   let passed = 0;
